@@ -1,0 +1,16 @@
+Pipeline más razonable:
+
+Elegir representación comparable
+H&E → grayscale, canal hematoxilina, bordes o máscara de tejido.
+HSI → pseudo-RGB, banda concreta, PCA primera componente, SAM/índice espectral, bordes o máscara de tejido.
+Registro global inicial
+Con los 3 puntos de tinta: affine o similarity transform.
+Esto es clave. Optical flow no debería resolver desde cero una mala alineación.
+Refinamiento local
+Probar primero Farneback por rapidez.
+Luego TV-L1 si quieres algo más estable.
+Controlar la deformación
+Suavizar el campo.
+Limitar desplazamientos máximos.
+Evaluar si los landmarks siguen alineados.
+No permitir deformaciones absurdas dentro del tejido.

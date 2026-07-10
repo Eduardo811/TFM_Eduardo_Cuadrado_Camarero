@@ -1,0 +1,95 @@
+{
+  "subject": "SB012",
+  "method": "TransMorph-style instance-specific 2D hybrid CNN-Transformer",
+  "device": "cuda",
+  "init_stage": "rigid",
+  "input_size": 192,
+  "iterations": 140,
+  "learning_rate": 0.0015,
+  "smooth_weight": 0.4,
+  "dice_weight": 0.45,
+  "max_disp_norm": 0.12,
+  "transformer_depth": 2,
+  "transformer_heads": 4,
+  "output_tag": "tm_s040_d012",
+  "initial_dice": 0.9260444903563353,
+  "final_dice": 0.9914468366257582,
+  "flow_mean_px": 12.925076484680176,
+  "flow_p50_px": 4.7454633712768555,
+  "flow_p95_px": 48.215217971801756,
+  "flow_max_px": 49.97645568847656,
+  "flow_smoothness_px": 0.5600823760032654,
+  "jacobian_det_min": -8.114072799682617,
+  "jacobian_det_p01": -0.13130183637142182,
+  "jacobian_det_negative_fraction": 0.023030980105701888,
+  "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_he_affine_to_hsi.png",
+  "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_he_mask_affine_to_hsi.png",
+  "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB012\\SB012_hsi.png",
+  "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB012\\SB012_hsi_mask.png",
+  "history": [
+    {
+      "iteration": 0,
+      "loss": 0.1730615645647049,
+      "sdf_mse": 0.13953660428524017,
+      "dice_loss": 0.07449990510940552,
+      "smoothness": 0.0,
+      "small_dice": 0.9255001230531238
+    },
+    {
+      "iteration": 20,
+      "loss": 0.030493076890707016,
+      "sdf_mse": 0.020254381000995636,
+      "dice_loss": 0.020181715488433838,
+      "smoothness": 0.0028923125937581062,
+      "small_dice": 0.9792658055744392
+    },
+    {
+      "iteration": 40,
+      "loss": 0.01485816203057766,
+      "sdf_mse": 0.008321193046867847,
+      "dice_loss": 0.011571943759918213,
+      "smoothness": 0.003323986195027828,
+      "small_dice": 0.9880308749022408
+    },
+    {
+      "iteration": 60,
+      "loss": 0.0126756951212883,
+      "sdf_mse": 0.007001825608313084,
+      "dice_loss": 0.009712576866149902,
+      "smoothness": 0.003258025273680687,
+      "small_dice": 0.9900915931764785
+    },
+    {
+      "iteration": 80,
+      "loss": 0.010954638011753559,
+      "sdf_mse": 0.005842860322445631,
+      "dice_loss": 0.00858086347579956,
+      "smoothness": 0.00312597188167274,
+      "small_dice": 0.9912954603526105
+    },
+    {
+      "iteration": 100,
+      "loss": 0.010464952327311039,
+      "sdf_mse": 0.005529916845262051,
+      "dice_loss": 0.008203089237213135,
+      "smoothness": 0.0031091137789189816,
+      "small_dice": 0.9917588966456666
+    },
+    {
+      "iteration": 120,
+      "loss": 0.010367891751229763,
+      "sdf_mse": 0.005508928559720516,
+      "dice_loss": 0.00812143087387085,
+      "smoothness": 0.003010797780007124,
+      "small_dice": 0.9916724851416018
+    },
+    {
+      "iteration": 140,
+      "loss": 0.010416359640657902,
+      "sdf_mse": 0.005580483470112085,
+      "dice_loss": 0.008103430271148682,
+      "smoothness": 0.002973330207169056,
+      "small_dice": 0.9920691650498655
+    }
+  ]
+}

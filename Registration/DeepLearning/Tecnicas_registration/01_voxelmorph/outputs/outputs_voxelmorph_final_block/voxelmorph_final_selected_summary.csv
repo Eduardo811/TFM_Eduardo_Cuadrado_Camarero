@@ -1,0 +1,7 @@
+subject,selected_config,initial_stage,initial_dice,classical_baseline_dice,voxelmorph_dice,voxelmorph_minus_baseline,flow_p95_px,negative_jacobian_fraction,quality_status,interpretation
+SB012,reg_s050_d012,rigid,0.926044,0.970298,0.992488,+0.022191,48.718,0.026165,acceptable_exploratory,acceptable exploratory
+SB013,reg_s050_d012,affine,0.941484,0.983933,0.996343,+0.012410,23.017,0.011200,acceptable_exploratory,acceptable exploratory
+SB017,reg_s050_d012,rigid,0.608631,0.608631,0.846986,+0.238356,45.981,0.155041,reject_as_final,reject as final
+SB018,reg_s050_d012,rigid,0.838522,0.976882,0.950115,-0.026767,45.139,0.062935,needs_review,needs visual review
+SB019,reg_s050_d012,rigid,0.852024,0.970969,0.967150,-0.003819,46.784,0.092662,needs_review,needs visual review
+SB020,reg_s050_d012,affine,0.889938,0.965006,0.980599,+0.015592,44.035,0.047833,acceptable_exploratory,acceptable exploratory

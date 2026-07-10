@@ -1,0 +1,404 @@
+[
+  {
+    "subject_id": "SB012",
+    "registration_direction": "he_to_hsi",
+    "fixed_image": "hsi",
+    "moving_image": "he",
+    "best_rigid_angle_deg": -91.75,
+    "rigid_matrix_2x3": [
+      [
+        -0.030538512393832207,
+        -0.9995335936546326,
+        651.9341430664062
+      ],
+      [
+        0.9995335936546326,
+        -0.030538512393832207,
+        51.17172622680664
+      ]
+    ],
+    "affine_total_matrix_2x3": [
+      [
+        -0.030538512393832207,
+        -0.9995335936546326,
+        651.9341430664062
+      ],
+      [
+        0.9995335936546326,
+        -0.030538512393832207,
+        51.17172622680664
+      ]
+    ],
+    "affine_delta_matrix_2x3": [
+      [
+        1.3106746673583984,
+        0.09015139937400818,
+        -109.89826965332031
+      ],
+      [
+        0.014762980863451958,
+        1.1402100324630737,
+        -46.82633590698242
+      ]
+    ],
+    "affine_delta_used": "direct",
+    "affine_ecc_success": true,
+    "affine_ecc_message": "ok",
+    "affine_ecc_cc": 0.9767601406284395,
+    "affine_accepted": false,
+    "affine_final_note": "affine_rejected_no_improvement",
+    "affine_reject_reason": "scale_out_of_range",
+    "affine_matrix_determinant": 1.4931135177612305,
+    "affine_scale_min_svd": 1.1259404420852661,
+    "affine_scale_max_svd": 1.3261034488677979,
+    "affine_axis_cosine": -0.08158889412879944,
+    "dice_rigid": 0.9260444903563353,
+    "dice_affine_candidate": 0.9063666818313413,
+    "dice_affine_final": 0.9260444903563353,
+    "iou_rigid": 0.8622745374839542,
+    "iou_affine_candidate": 0.8287665223560449,
+    "iou_affine_final": 0.8622745374839542,
+    "contour_mean_distance_rigid_px": 19.09511947631836,
+    "contour_p95_distance_rigid_px": 43.1968994140625,
+    "contour_mean_distance_affine_px": 19.09511947631836,
+    "contour_p95_distance_affine_px": 43.1968994140625,
+    "target_px_per_cm": 201.66772352568165,
+    "overlay_rgb_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_overlay_rgb_affine.png",
+    "overlay_contours_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_overlay_contours_affine.png"
+  },
+  {
+    "subject_id": "SB013",
+    "registration_direction": "he_to_hsi",
+    "fixed_image": "hsi",
+    "moving_image": "he",
+    "best_rigid_angle_deg": 61.0,
+    "rigid_matrix_2x3": [
+      [
+        0.48480960726737976,
+        0.874619722366333,
+        -47.973751068115234
+      ],
+      [
+        -0.874619722366333,
+        0.48480960726737976,
+        255.52438354492188
+      ]
+    ],
+    "affine_total_matrix_2x3": [
+      [
+        0.7663321495056152,
+        0.9216669201850891,
+        -117.10261535644531
+      ],
+      [
+        -0.6981161832809448,
+        0.5612580180168152,
+        202.59645080566406
+      ]
+    ],
+    "affine_delta_matrix_2x3": [
+      [
+        1.177633285522461,
+        -0.22341623902320862,
+        -3.518831491470337
+      ],
+      [
+        0.15243391692638397,
+        0.8826894164085388,
+        -15.639397621154785
+      ]
+    ],
+    "affine_delta_used": "inverse",
+    "affine_ecc_success": true,
+    "affine_ecc_message": "ok",
+    "affine_ecc_cc": 0.9744079088938556,
+    "affine_accepted": true,
+    "affine_final_note": "affine_accepted",
+    "affine_reject_reason": "ok",
+    "affine_matrix_determinant": 1.0735406875610352,
+    "affine_scale_min_svd": 0.8954795002937317,
+    "affine_scale_max_svd": 1.1988445520401,
+    "affine_axis_cosine": 0.2811232805252075,
+    "dice_rigid": 0.9217635442833922,
+    "dice_affine_candidate": 0.9414837224937295,
+    "dice_affine_final": 0.9414837224937295,
+    "iou_rigid": 0.8548807076558899,
+    "iou_affine_candidate": 0.889437170216924,
+    "iou_affine_final": 0.889437170216924,
+    "contour_mean_distance_rigid_px": 15.588562965393066,
+    "contour_p95_distance_rigid_px": 40.0,
+    "contour_mean_distance_affine_px": 11.734750747680664,
+    "contour_p95_distance_affine_px": 21.430078506469727,
+    "target_px_per_cm": 201.5472415979708,
+    "overlay_rgb_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB013\\SB013_overlay_rgb_affine.png",
+    "overlay_contours_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB013\\SB013_overlay_contours_affine.png"
+  },
+  {
+    "subject_id": "SB017",
+    "registration_direction": "he_to_hsi",
+    "fixed_image": "hsi",
+    "moving_image": "he",
+    "best_rigid_angle_deg": -120.0,
+    "rigid_matrix_2x3": [
+      [
+        -0.5,
+        -0.8660253882408142,
+        553.0142822265625
+      ],
+      [
+        0.8660253882408142,
+        -0.5,
+        190.86546325683594
+      ]
+    ],
+    "affine_total_matrix_2x3": [
+      [
+        -0.5,
+        -0.8660253882408142,
+        553.0142822265625
+      ],
+      [
+        0.8660253882408142,
+        -0.5,
+        190.86546325683594
+      ]
+    ],
+    "affine_delta_matrix_2x3": [
+      [
+        3.4262242317199707,
+        -0.3964821696281433,
+        -615.7222900390625
+      ],
+      [
+        1.127541184425354,
+        3.6907694339752197,
+        -974.382568359375
+      ]
+    ],
+    "affine_delta_used": "direct",
+    "affine_ecc_success": true,
+    "affine_ecc_message": "ok",
+    "affine_ecc_cc": 0.9072125717940636,
+    "affine_accepted": false,
+    "affine_final_note": "affine_rejected_scale_out_of_range",
+    "affine_reject_reason": "scale_out_of_range",
+    "affine_matrix_determinant": 13.092453956604004,
+    "affine_scale_min_svd": 3.2504444122314453,
+    "affine_scale_max_svd": 4.027896404266357,
+    "affine_axis_cosine": -0.13132216036319733,
+    "dice_rigid": 0.608630797966172,
+    "dice_affine_candidate": 0.8408226452807634,
+    "dice_affine_final": 0.608630797966172,
+    "iou_rigid": 0.43743299555323534,
+    "iou_affine_candidate": 0.7253615176811476,
+    "iou_affine_final": 0.43743299555323534,
+    "contour_mean_distance_rigid_px": 75.26986694335938,
+    "contour_p95_distance_rigid_px": 115.05427551269531,
+    "contour_mean_distance_affine_px": 75.26986694335938,
+    "contour_p95_distance_affine_px": 115.05427551269531,
+    "target_px_per_cm": 193.93997040794756,
+    "overlay_rgb_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB017\\SB017_overlay_rgb_affine.png",
+    "overlay_contours_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB017\\SB017_overlay_contours_affine.png"
+  },
+  {
+    "subject_id": "SB018",
+    "registration_direction": "he_to_hsi",
+    "fixed_image": "hsi",
+    "moving_image": "he",
+    "best_rigid_angle_deg": 118.5,
+    "rigid_matrix_2x3": [
+      [
+        -0.4771587550640106,
+        0.8788171410560608,
+        133.87600708007812
+      ],
+      [
+        -0.8788171410560608,
+        -0.4771587550640106,
+        579.1727905273438
+      ]
+    ],
+    "affine_total_matrix_2x3": [
+      [
+        -0.4771587550640106,
+        0.8788171410560608,
+        133.87600708007812
+      ],
+      [
+        -0.8788171410560608,
+        -0.4771587550640106,
+        579.1727905273438
+      ]
+    ],
+    "affine_delta_matrix_2x3": [
+      [
+        2.8352389335632324,
+        1.9419711828231812,
+        -997.6498413085938
+      ],
+      [
+        -1.1509191989898682,
+        4.038403034210205,
+        -453.77178955078125
+      ]
+    ],
+    "affine_delta_used": "direct",
+    "affine_ecc_success": true,
+    "affine_ecc_message": "ok",
+    "affine_ecc_cc": 0.8892645807657943,
+    "affine_accepted": false,
+    "affine_final_note": "affine_rejected_scale_out_of_range",
+    "affine_reject_reason": "scale_out_of_range",
+    "affine_matrix_determinant": 13.684890747070312,
+    "affine_scale_min_svd": 3.048758029937744,
+    "affine_scale_max_svd": 4.488677501678467,
+    "affine_axis_cosine": 0.2822698950767517,
+    "dice_rigid": 0.8385216845033766,
+    "dice_affine_candidate": 0.8405679960321105,
+    "dice_affine_final": 0.8385216845033766,
+    "iou_rigid": 0.7219434692113409,
+    "iou_affine_candidate": 0.7249825717726092,
+    "iou_affine_final": 0.7219434692113409,
+    "contour_mean_distance_rigid_px": 32.47267150878906,
+    "contour_p95_distance_rigid_px": 93.72411346435547,
+    "contour_mean_distance_affine_px": 32.47267150878906,
+    "contour_p95_distance_affine_px": 93.72411346435547,
+    "target_px_per_cm": 195.71549355316,
+    "overlay_rgb_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_overlay_rgb_affine.png",
+    "overlay_contours_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_overlay_contours_affine.png"
+  },
+  {
+    "subject_id": "SB019",
+    "registration_direction": "he_to_hsi",
+    "fixed_image": "hsi",
+    "moving_image": "he",
+    "best_rigid_angle_deg": 80.0,
+    "rigid_matrix_2x3": [
+      [
+        0.1736481785774231,
+        0.9848077297210693,
+        -5.232226848602295
+      ],
+      [
+        -0.9848077297210693,
+        0.1736481785774231,
+        456.9327087402344
+      ]
+    ],
+    "affine_total_matrix_2x3": [
+      [
+        0.1736481785774231,
+        0.9848077297210693,
+        -5.232226848602295
+      ],
+      [
+        -0.9848077297210693,
+        0.1736481785774231,
+        456.9327087402344
+      ]
+    ],
+    "affine_delta_matrix_2x3": [
+      [
+        1.1340285539627075,
+        -0.3280467391014099,
+        46.859596252441406
+      ],
+      [
+        0.1573200523853302,
+        1.3206464052200317,
+        -139.4022216796875
+      ]
+    ],
+    "affine_delta_used": "direct",
+    "affine_ecc_success": true,
+    "affine_ecc_message": "ok",
+    "affine_ecc_cc": 0.958188367650674,
+    "affine_accepted": false,
+    "affine_final_note": "affine_rejected_scale_out_of_range",
+    "affine_reject_reason": "scale_out_of_range",
+    "affine_matrix_determinant": 1.5492589473724365,
+    "affine_scale_min_svd": 1.1246352195739746,
+    "affine_scale_max_svd": 1.3775657415390015,
+    "affine_axis_cosine": 0.03988189250230789,
+    "dice_rigid": 0.8520236687494607,
+    "dice_affine_candidate": 0.8738228911787577,
+    "dice_affine_final": 0.8520236687494607,
+    "iou_rigid": 0.7421961982624808,
+    "iou_affine_candidate": 0.7759195994432695,
+    "iou_affine_final": 0.7421961982624808,
+    "contour_mean_distance_rigid_px": 32.28019714355469,
+    "contour_p95_distance_rigid_px": 77.97552490234375,
+    "contour_mean_distance_affine_px": 32.28019714355469,
+    "contour_p95_distance_affine_px": 77.97552490234375,
+    "target_px_per_cm": 196.12132741492283,
+    "overlay_rgb_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB019\\SB019_overlay_rgb_affine.png",
+    "overlay_contours_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB019\\SB019_overlay_contours_affine.png"
+  },
+  {
+    "subject_id": "SB020",
+    "registration_direction": "he_to_hsi",
+    "fixed_image": "hsi",
+    "moving_image": "he",
+    "best_rigid_angle_deg": 135.0,
+    "rigid_matrix_2x3": [
+      [
+        -0.7071067690849304,
+        0.7071067690849304,
+        237.73687744140625
+      ],
+      [
+        -0.7071067690849304,
+        -0.7071067690849304,
+        582.0885009765625
+      ]
+    ],
+    "affine_total_matrix_2x3": [
+      [
+        -0.7158805131912231,
+        0.7048565149307251,
+        246.2767791748047
+      ],
+      [
+        -0.8018205165863037,
+        -0.8840354681015015,
+        651.0350952148438
+      ]
+    ],
+    "affine_delta_matrix_2x3": [
+      [
+        1.0046128034591675,
+        0.007795185316354036,
+        2.9057834148406982
+      ],
+      [
+        -0.058134716004133224,
+        1.1920802593231201,
+        -29.040407180786133
+      ]
+    ],
+    "affine_delta_used": "direct",
+    "affine_ecc_success": true,
+    "affine_ecc_message": "ok",
+    "affine_ecc_cc": 0.9599189800398626,
+    "affine_accepted": true,
+    "affine_final_note": "affine_accepted",
+    "affine_reject_reason": "ok",
+    "affine_matrix_determinant": 1.1980321407318115,
+    "affine_scale_min_svd": 1.0017868280410767,
+    "affine_scale_max_svd": 1.1958953142166138,
+    "affine_axis_cosine": 0.16805870831012726,
+    "dice_rigid": 0.8700521581541317,
+    "dice_affine_candidate": 0.8899381721611817,
+    "dice_affine_final": 0.8899381721611817,
+    "iou_rigid": 0.7699932031666398,
+    "iou_affine_candidate": 0.8017014456697462,
+    "iou_affine_final": 0.8017014456697462,
+    "contour_mean_distance_rigid_px": 26.580156326293945,
+    "contour_p95_distance_rigid_px": 65.71318817138672,
+    "contour_mean_distance_affine_px": 23.65359878540039,
+    "contour_p95_distance_affine_px": 60.34651565551758,
+    "target_px_per_cm": 194.12597759458887,
+    "overlay_rgb_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB020\\SB020_overlay_rgb_affine.png",
+    "overlay_contours_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB020\\SB020_overlay_contours_affine.png"
+  }
+]

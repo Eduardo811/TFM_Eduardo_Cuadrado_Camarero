@@ -1,0 +1,13 @@
+{
+  "subject": "SB017",
+  "method": "DeeperHistReg exploratory",
+  "source": "Registration\\DeepLearning\\Imagenes_a_escala\\SB017\\SB017_h&e.png",
+  "target": "Registration\\DeepLearning\\Imagenes_a_escala\\SB017\\SB017_hsi.png",
+  "warped_source": "Registration\\DeepLearning\\Tecnicas_registration\\04_deeperhistreg\\outputs\\outputs_deeperhistreg_all\\SB017\\SB017_warped_source_deeperhistreg.png",
+  "overlay_contours": "Registration\\DeepLearning\\Tecnicas_registration\\04_deeperhistreg\\outputs\\outputs_deeperhistreg_all\\SB017\\SB017_deeperhistreg_overlay_contours.png",
+  "comparison": "Registration\\DeepLearning\\Tecnicas_registration\\04_deeperhistreg\\outputs\\outputs_deeperhistreg_all\\SB017\\SB017_deeperhistreg_comparison.png",
+  "baseline_dice": 0.608630797966172,
+  "deeperhistreg_dice_mask_from_black_background": 0.23127814354059298,
+  "deeperhistreg_minus_baseline": -0.3773526544255791,
+  "note": "Dice is only a rough sanity metric because the warped H&E mask is re-estimated from black background."
+}

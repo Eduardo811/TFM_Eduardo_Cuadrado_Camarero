@@ -1,0 +1,7 @@
+subject,voxelmorph_flow_p95_px,voxelmorph_negative_jacobian_fraction,voxelmorph_quality_status,transmorph_flow_p95_px,transmorph_negative_jacobian_fraction,transmorph_quality_status
+SB012,48.718,0.026165,acceptable_exploratory,33.218,0.02214,acceptable_exploratory
+SB013,23.017,0.0112,acceptable_exploratory,21.84,0.006352,acceptable_exploratory
+SB017,45.981,0.155041,reject_as_final,30.593,0.092833,needs_review
+SB018,45.139,0.062935,needs_review,30.047,0.039789,not_better_than_baseline
+SB019,46.784,0.092662,needs_review,31.143,0.0574,needs_review
+SB020,44.035,0.047833,acceptable_exploratory,29.428,0.019818,acceptable_exploratory

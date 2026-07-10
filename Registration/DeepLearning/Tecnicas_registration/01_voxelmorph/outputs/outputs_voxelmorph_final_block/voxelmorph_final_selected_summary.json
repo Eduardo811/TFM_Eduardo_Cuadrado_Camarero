@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "SB012",
+    "selected_config": "reg_s050_d012",
+    "initial_stage": "rigid",
+    "initial_dice": "0.926044",
+    "classical_baseline_dice": "0.970298",
+    "voxelmorph_dice": "0.992488",
+    "voxelmorph_minus_baseline": "+0.022191",
+    "flow_p95_px": "48.718",
+    "negative_jacobian_fraction": "0.026165",
+    "quality_status": "acceptable_exploratory",
+    "interpretation": "acceptable exploratory"
+  },
+  {
+    "subject": "SB013",
+    "selected_config": "reg_s050_d012",
+    "initial_stage": "affine",
+    "initial_dice": "0.941484",
+    "classical_baseline_dice": "0.983933",
+    "voxelmorph_dice": "0.996343",
+    "voxelmorph_minus_baseline": "+0.012410",
+    "flow_p95_px": "23.017",
+    "negative_jacobian_fraction": "0.011200",
+    "quality_status": "acceptable_exploratory",
+    "interpretation": "acceptable exploratory"
+  },
+  {
+    "subject": "SB017",
+    "selected_config": "reg_s050_d012",
+    "initial_stage": "rigid",
+    "initial_dice": "0.608631",
+    "classical_baseline_dice": "0.608631",
+    "voxelmorph_dice": "0.846986",
+    "voxelmorph_minus_baseline": "+0.238356",
+    "flow_p95_px": "45.981",
+    "negative_jacobian_fraction": "0.155041",
+    "quality_status": "reject_as_final",
+    "interpretation": "reject as final"
+  },
+  {
+    "subject": "SB018",
+    "selected_config": "reg_s050_d012",
+    "initial_stage": "rigid",
+    "initial_dice": "0.838522",
+    "classical_baseline_dice": "0.976882",
+    "voxelmorph_dice": "0.950115",
+    "voxelmorph_minus_baseline": "-0.026767",
+    "flow_p95_px": "45.139",
+    "negative_jacobian_fraction": "0.062935",
+    "quality_status": "needs_review",
+    "interpretation": "needs visual review"
+  },
+  {
+    "subject": "SB019",
+    "selected_config": "reg_s050_d012",
+    "initial_stage": "rigid",
+    "initial_dice": "0.852024",
+    "classical_baseline_dice": "0.970969",
+    "voxelmorph_dice": "0.967150",
+    "voxelmorph_minus_baseline": "-0.003819",
+    "flow_p95_px": "46.784",
+    "negative_jacobian_fraction": "0.092662",
+    "quality_status": "needs_review",
+    "interpretation": "needs visual review"
+  },
+  {
+    "subject": "SB020",
+    "selected_config": "reg_s050_d012",
+    "initial_stage": "affine",
+    "initial_dice": "0.889938",
+    "classical_baseline_dice": "0.965006",
+    "voxelmorph_dice": "0.980599",
+    "voxelmorph_minus_baseline": "+0.015592",
+    "flow_p95_px": "44.035",
+    "negative_jacobian_fraction": "0.047833",
+    "quality_status": "acceptable_exploratory",
+    "interpretation": "acceptable exploratory"
+  }
+]

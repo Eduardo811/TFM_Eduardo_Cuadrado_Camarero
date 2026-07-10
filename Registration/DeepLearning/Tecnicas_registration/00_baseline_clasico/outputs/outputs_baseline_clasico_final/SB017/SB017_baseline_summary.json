@@ -1,0 +1,30 @@
+{
+  "subject_id": "SB017",
+  "final_method": "rigid",
+  "final_note": "fallback_to_rigid",
+  "visual_review_flag": "review_rejected_nonrigid",
+  "dice_final": "0.608630797966172",
+  "iou_final": "0.43743299555323534",
+  "contour_mean_final_px": "75.26986694335938",
+  "contour_p95_final_px": "115.05427551269531",
+  "dice_rigid": "0.608630797966172",
+  "dice_affine_final": "0.608630797966172",
+  "dice_nonrigid_final": "0.608630797966172",
+  "nonrigid_flow_p95_px": "110.21846771240234",
+  "nonrigid_flow_max_px": "111.38296508789062",
+  "target_px_per_cm": "193.93997040794756",
+  "files": {
+    "registered_he_rgb": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB017\\SB017_he_registered_to_hsi_baseline.png",
+    "registered_he_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB017\\SB017_he_registered_mask_to_hsi_baseline.png",
+    "overlay_rgb": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB017\\SB017_baseline_overlay_rgb.png",
+    "overlay_contours": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB017\\SB017_baseline_overlay_contours.png",
+    "metrics": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB017\\SB017_baseline_metrics.json"
+  },
+  "source_files": {
+    "registered_he_rgb": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_rigido_mascaras\\SB017\\SB017_he_rigid_to_hsi.png",
+    "registered_he_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_rigido_mascaras\\SB017\\SB017_he_mask_rigid_to_hsi.png",
+    "overlay_rgb": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_rigido_mascaras\\SB017\\SB017_overlay_rgb_rigid.png",
+    "overlay_contours": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_rigido_mascaras\\SB017\\SB017_overlay_contours_rigid.png",
+    "metrics": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_rigido_mascaras\\SB017\\SB017_rigid_metrics.json"
+  }
+}

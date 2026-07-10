@@ -1,0 +1,4 @@
+case,label,num_matches,mean_confidence,median_confidence,high_confidence_matches_ge_0_5,affine_inliers,affine_inlier_ratio,affine_mask_dice,homography_inliers,homography_inlier_ratio,homography_mask_dice
+original_full,Original notebook inputs,55,0.30779051780700684,0.265482634305954,4,6,0.10909090909090909,,9,0.16363636363636364,
+scaled_unmasked,Scale-matched images before explicit mask crop,114,0.36404067277908325,0.3155609369277954,19,16,0.14035087719298245,0.785156984915725,23,0.20175438596491227,0.8379053258659437
+segmented_cropped,Segmented specimen only,142,0.3505028188228607,0.30590131878852844,18,12,0.08450704225352113,0.7644181382380277,19,0.13380281690140844,0.9032299456091701

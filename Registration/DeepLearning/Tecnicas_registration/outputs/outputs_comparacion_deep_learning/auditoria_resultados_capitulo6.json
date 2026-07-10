@@ -1,0 +1,67 @@
+{
+  "subjects": [
+    "SB012",
+    "SB013",
+    "SB017",
+    "SB018",
+    "SB019",
+    "SB020"
+  ],
+  "source_files": {
+    "rigid": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_rigido_mascaras\\rigid_mask_summary.csv",
+    "affine": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\affine_mask_summary.csv",
+    "nonrigid": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_no_rigido_mascaras\\nonrigid_mask_summary.csv",
+    "baseline": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\baseline_clasico_summary.csv",
+    "voxel": "Registration\\DeepLearning\\Tecnicas_registration\\01_voxelmorph\\outputs\\outputs_voxelmorph_final_block\\voxelmorph_final_selected_summary.csv",
+    "trans": "Registration\\DeepLearning\\Tecnicas_registration\\02_transmorph\\outputs\\outputs_transmorph_final_block\\transmorph_final_selected_summary.csv",
+    "deeper": "Registration\\DeepLearning\\Tecnicas_registration\\04_deeperhistreg\\outputs\\outputs_deeperhistreg_all\\deeperhistreg_all_summary.csv",
+    "comparison": "Registration\\DeepLearning\\Tecnicas_registration\\outputs\\outputs_comparacion_deep_learning\\deep_learning_comparison_by_subject.csv",
+    "methods": "Registration\\DeepLearning\\Tecnicas_registration\\outputs\\outputs_comparacion_deep_learning\\deep_learning_method_summary.csv"
+  },
+  "checks": {
+    "issues": [],
+    "issue_count": 0,
+    "numeric_tolerance": 1e-10
+  },
+  "aggregates_recomputed": {
+    "Classical baseline": {
+      "mean_dice": 0.9126197434745836,
+      "sample_std_dice": 0.14906387613346025,
+      "mean_gain_vs_baseline": 0.0,
+      "best_subject_count": 2
+    },
+    "VoxelMorph-style": {
+      "mean_dice": 0.9556135,
+      "sample_std_dice": 0.05586797691253908,
+      "mean_gain_vs_baseline": 0.04299375652541637,
+      "best_subject_count": 4
+    },
+    "TransMorph-style": {
+      "mean_dice": 0.9324236666666668,
+      "sample_std_dice": 0.07871221653762946,
+      "mean_gain_vs_baseline": 0.019803923192083128,
+      "best_subject_count": 0
+    },
+    "DeeperHistReg (approx.)": {
+      "mean_dice": 0.7380596204108133,
+      "sample_std_dice": 0.25099260832335957,
+      "mean_gain_vs_baseline": -0.17456012306377033,
+      "best_subject_count": 0
+    }
+  },
+  "important_caveats": [
+    "DeeperHistReg Dice is approximate because its mask is re-estimated from the black background.",
+    "LoFTR evaluates only SB013 and is not directly comparable with the six-case registration methods.",
+    "Neural methods are instance-specific optimizations, not models evaluated on unseen subjects."
+  ],
+  "standard_deviation_definition": "Sample standard deviation (n-1), matching deep_learning_method_summary.csv.",
+  "physical_scale_px_per_cm": {
+    "SB012": "201.66772352568165",
+    "SB013": "201.5472415979708",
+    "SB017": "193.93997040794756",
+    "SB018": "195.71549355316",
+    "SB019": "196.12132741492283",
+    "SB020": "194.12597759458887"
+  },
+  "distance_conversion": "millimetres = pixels * 10 / target_px_per_cm"
+}

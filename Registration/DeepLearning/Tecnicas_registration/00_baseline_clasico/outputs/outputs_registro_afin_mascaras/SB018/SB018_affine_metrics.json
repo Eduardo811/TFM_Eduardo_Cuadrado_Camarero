@@ -1,0 +1,67 @@
+{
+  "subject_id": "SB018",
+  "registration_direction": "he_to_hsi",
+  "fixed_image": "hsi",
+  "moving_image": "he",
+  "best_rigid_angle_deg": 118.5,
+  "rigid_matrix_2x3": [
+    [
+      -0.4771587550640106,
+      0.8788171410560608,
+      133.87600708007812
+    ],
+    [
+      -0.8788171410560608,
+      -0.4771587550640106,
+      579.1727905273438
+    ]
+  ],
+  "affine_total_matrix_2x3": [
+    [
+      -0.4771587550640106,
+      0.8788171410560608,
+      133.87600708007812
+    ],
+    [
+      -0.8788171410560608,
+      -0.4771587550640106,
+      579.1727905273438
+    ]
+  ],
+  "affine_delta_matrix_2x3": [
+    [
+      2.8352389335632324,
+      1.9419711828231812,
+      -997.6498413085938
+    ],
+    [
+      -1.1509191989898682,
+      4.038403034210205,
+      -453.77178955078125
+    ]
+  ],
+  "affine_delta_used": "direct",
+  "affine_ecc_success": true,
+  "affine_ecc_message": "ok",
+  "affine_ecc_cc": 0.8892645807657943,
+  "affine_accepted": false,
+  "affine_final_note": "affine_rejected_scale_out_of_range",
+  "affine_reject_reason": "scale_out_of_range",
+  "affine_matrix_determinant": 13.684890747070312,
+  "affine_scale_min_svd": 3.048758029937744,
+  "affine_scale_max_svd": 4.488677501678467,
+  "affine_axis_cosine": 0.2822698950767517,
+  "dice_rigid": 0.8385216845033766,
+  "dice_affine_candidate": 0.8405679960321105,
+  "dice_affine_final": 0.8385216845033766,
+  "iou_rigid": 0.7219434692113409,
+  "iou_affine_candidate": 0.7249825717726092,
+  "iou_affine_final": 0.7219434692113409,
+  "contour_mean_distance_rigid_px": 32.47267150878906,
+  "contour_p95_distance_rigid_px": 93.72411346435547,
+  "contour_mean_distance_affine_px": 32.47267150878906,
+  "contour_p95_distance_affine_px": 93.72411346435547,
+  "target_px_per_cm": 195.71549355316,
+  "overlay_rgb_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_overlay_rgb_affine.png",
+  "overlay_contours_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_overlay_contours_affine.png"
+}

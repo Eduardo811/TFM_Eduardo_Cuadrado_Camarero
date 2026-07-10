@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+pillow
+opencv-python
+scipy
+scikit-image
+spectral
+openslide-python
+openslide-bin
+torch
+torchvision
+kornia
+nbformat
+ipykernel
+jupyterlab
+

@@ -1,0 +1,294 @@
+{
+  "subject": "SB013",
+  "method": "LoFTR outdoor + RANSAC affine/homography",
+  "direction": "HSI moving -> H&E fixed",
+  "device": "cuda",
+  "raw_hsi_pseudo_rgb": {
+    "indices": {
+      "r": 56,
+      "g": 33,
+      "b": 11
+    },
+    "wavelengths_nm": {
+      "r": 651.9000244140625,
+      "g": 548.4400024414062,
+      "b": 449.4800109863281
+    }
+  },
+  "summaries": [
+    {
+      "case": "original_full",
+      "label": "Original notebook inputs",
+      "num_matches": 55,
+      "mean_confidence": 0.30779051780700684,
+      "median_confidence": 0.265482634305954,
+      "high_confidence_matches_ge_0_5": 4,
+      "affine_available": true,
+      "affine_inliers": 6,
+      "affine_inlier_ratio": 0.10909090909090909,
+      "affine_mask_dice": null,
+      "homography_available": true,
+      "homography_inliers": 9,
+      "homography_inlier_ratio": 0.16363636363636364,
+      "homography_mask_dice": null,
+      "moving_shape": [
+        616,
+        768,
+        3
+      ],
+      "fixed_shape": [
+        576,
+        768,
+        3
+      ],
+      "preparation": {
+        "moving_resize": {
+          "original_shape": [
+            1024,
+            1280
+          ],
+          "resized_shape": [
+            614,
+            768
+          ],
+          "padded_shape": [
+            616,
+            768
+          ],
+          "scale": 0.6
+        },
+        "fixed_resize": {
+          "original_shape": [
+            3060,
+            4080
+          ],
+          "resized_shape": [
+            576,
+            768
+          ],
+          "padded_shape": [
+            576,
+            768
+          ],
+          "scale": 0.18823529411764706
+        }
+      },
+      "affine_matrix": [
+        [
+          0.7406566972090791,
+          -0.004030888517137966,
+          183.4934428565752
+        ],
+        [
+          0.004030888517137966,
+          0.7406566972090791,
+          111.57730625015283
+        ]
+      ],
+      "homography_matrix": [
+        [
+          0.2652756536221252,
+          -0.21705627333108146,
+          287.2224016162277
+        ],
+        [
+          -0.10152726905226614,
+          0.3165786755861642,
+          170.3192432315264
+        ],
+        [
+          -0.00048084573080859336,
+          -0.00037131656994816967,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "case": "scaled_unmasked",
+      "label": "Scale-matched images before explicit mask crop",
+      "num_matches": 114,
+      "mean_confidence": 0.36404067277908325,
+      "median_confidence": 0.3155609369277954,
+      "high_confidence_matches_ge_0_5": 19,
+      "affine_available": true,
+      "affine_inliers": 16,
+      "affine_inlier_ratio": 0.14035087719298245,
+      "affine_mask_dice": 0.785156984915725,
+      "homography_available": true,
+      "homography_inliers": 23,
+      "homography_inlier_ratio": 0.20175438596491227,
+      "homography_mask_dice": 0.8379053258659437,
+      "moving_shape": [
+        392,
+        552,
+        3
+      ],
+      "fixed_shape": [
+        496,
+        440,
+        3
+      ],
+      "preparation": {
+        "moving_resize": {
+          "original_shape": [
+            391,
+            546
+          ],
+          "resized_shape": [
+            391,
+            546
+          ],
+          "padded_shape": [
+            392,
+            552
+          ],
+          "scale": 1.0
+        },
+        "fixed_resize": {
+          "original_shape": [
+            496,
+            434
+          ],
+          "resized_shape": [
+            496,
+            434
+          ],
+          "padded_shape": [
+            496,
+            440
+          ],
+          "scale": 1.0
+        }
+      },
+      "affine_matrix": [
+        [
+          1.0284556596327088,
+          -0.15575686913303763,
+          -110.68240260485088
+        ],
+        [
+          0.15575686913303763,
+          1.0284556596327088,
+          -90.3775732176396
+        ]
+      ],
+      "homography_matrix": [
+        [
+          0.8834244467614369,
+          -0.2741014972487195,
+          -47.69893912799857
+        ],
+        [
+          0.09696496085329025,
+          0.8796716977304881,
+          -48.33243847559973
+        ],
+        [
+          1.3378630652162622e-06,
+          -0.0004628300071678182,
+          1.0
+        ]
+      ]
+    },
+    {
+      "case": "segmented_cropped",
+      "label": "Segmented specimen only",
+      "num_matches": 142,
+      "mean_confidence": 0.3505028188228607,
+      "median_confidence": 0.30590131878852844,
+      "high_confidence_matches_ge_0_5": 18,
+      "affine_available": true,
+      "affine_inliers": 12,
+      "affine_inlier_ratio": 0.08450704225352113,
+      "affine_mask_dice": 0.7644181382380277,
+      "homography_available": true,
+      "homography_inliers": 19,
+      "homography_inlier_ratio": 0.13380281690140844,
+      "homography_mask_dice": 0.9032299456091701,
+      "moving_shape": [
+        392,
+        544,
+        3
+      ],
+      "fixed_shape": [
+        480,
+        432,
+        3
+      ],
+      "preparation": {
+        "moving_bbox": [
+          3,
+          2,
+          544,
+          390
+        ],
+        "fixed_bbox": [
+          0,
+          10,
+          425,
+          487
+        ],
+        "moving_resize": {
+          "original_shape": [
+            388,
+            541
+          ],
+          "resized_shape": [
+            388,
+            541
+          ],
+          "padded_shape": [
+            392,
+            544
+          ],
+          "scale": 1.0
+        },
+        "fixed_resize": {
+          "original_shape": [
+            477,
+            425
+          ],
+          "resized_shape": [
+            477,
+            425
+          ],
+          "padded_shape": [
+            480,
+            432
+          ],
+          "scale": 1.0
+        }
+      },
+      "affine_matrix": [
+        [
+          0.7988209306921858,
+          -0.010270425884516415,
+          -13.950407943398272
+        ],
+        [
+          0.010270425884516415,
+          0.7988209306921858,
+          9.952176450453637
+        ]
+      ],
+      "homography_matrix": [
+        [
+          0.7479922423454839,
+          -0.22428128703304492,
+          7.744496303550471
+        ],
+        [
+          -0.0040446192600425415,
+          0.7931589233585885,
+          4.979766973636905
+        ],
+        [
+          2.4164229178644925e-05,
+          -0.0006766064420000439,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "note": "Raw full-image case has no directly comparable mask Dice. Segmented cases use prepared masks."
+}

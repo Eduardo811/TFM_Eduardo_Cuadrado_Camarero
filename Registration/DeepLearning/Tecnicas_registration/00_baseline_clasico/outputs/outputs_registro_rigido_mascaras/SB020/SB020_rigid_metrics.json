@@ -1,0 +1,39 @@
+{
+  "subject_id": "SB020",
+  "registration_direction": "he_to_hsi",
+  "fixed_image": "hsi",
+  "moving_image": "he",
+  "best_angle_deg": 135.0,
+  "transform_matrix_2x3": [
+    [
+      -0.7071067811865475,
+      0.7071067811865476,
+      237.7368761544879
+    ],
+    [
+      -0.7071067811865476,
+      -0.7071067811865475,
+      582.0885139307866
+    ]
+  ],
+  "dice_initial_angle_0": 0.8496491029252018,
+  "iou_initial_angle_0": 0.7385999394495677,
+  "dice_rigid": 0.8700521581541317,
+  "iou_rigid": 0.7699932031666398,
+  "contour_mean_distance_px": 26.580156326293945,
+  "contour_p95_distance_px": 65.71318817138672,
+  "he_rgb_shape": [
+    528,
+    434,
+    3
+  ],
+  "hsi_rgb_shape": [
+    483,
+    561,
+    3
+  ],
+  "target_px_per_cm": 194.12597759458887,
+  "output_dir": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_rigido_mascaras\\SB020",
+  "overlay_rgb_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_rigido_mascaras\\SB020\\SB020_overlay_rgb_rigid.png",
+  "overlay_contours_path": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_rigido_mascaras\\SB020\\SB020_overlay_contours_rigid.png"
+}

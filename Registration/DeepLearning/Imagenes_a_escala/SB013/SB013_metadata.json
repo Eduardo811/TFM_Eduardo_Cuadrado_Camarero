@@ -1,0 +1,317 @@
+{
+  "subject_id": "SB013",
+  "registration_direction": "he_to_hsi",
+  "fixed_image": "hsi",
+  "moving_image": "he",
+  "source_paths": {
+    "he_path": "Datos\\SB013\\SB013\\H&E\\SB013.mrxs",
+    "hsi_hdr_path": "Datos\\SB013\\SB013\\SB013_001\\SB013_nrm_edu.hdr"
+  },
+  "files": {
+    "he_rgb": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_h&e.png",
+    "hsi_rgb": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi.png",
+    "he_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_he_mask.png",
+    "hsi_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi_mask.png",
+    "he_contour": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_he_contour.png",
+    "hsi_contour": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi_contour.png",
+    "he_signed_distance": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_he_signed_distance.npy",
+    "hsi_signed_distance": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi_signed_distance.npy",
+    "pair_preview": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_pair_preview.png",
+    "metadata": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_metadata.json"
+  },
+  "shapes": {
+    "he_rgb": [
+      496,
+      434,
+      3
+    ],
+    "hsi_rgb": [
+      391,
+      546,
+      3
+    ],
+    "he_mask": [
+      496,
+      434
+    ],
+    "hsi_mask": [
+      391,
+      546
+    ]
+  },
+  "mask_area_px": {
+    "he": 150188,
+    "hsi": 150436
+  },
+  "target_px_per_cm": 201.5472415979708,
+  "segmented_info": {
+    "target_px_per_cm": 201.5472415979708,
+    "he_scale": {
+      "chosen_level": 8,
+      "downsample": 255.40535097444962,
+      "mpp_x_at_level": 44.057423043092555,
+      "mpp_y_at_level": 44.057423043092555,
+      "px_per_cm_x": 226.9765072328221,
+      "px_per_cm_y": 226.9765072328221
+    },
+    "hsi_scale": {
+      "px_per_cm_x": 197.8313253012048,
+      "px_per_cm_y": 205.26315789473685,
+      "horizontal_cm": 4.15,
+      "vertical_cm": 2.85,
+      "bbox_xyxy": [
+        195,
+        218,
+        1015,
+        802
+      ]
+    },
+    "he_bbox_xyxy": [
+      0,
+      306,
+      488,
+      864
+    ],
+    "hsi_specimen_bbox_xyxy": [
+      265,
+      292,
+      800,
+      689
+    ],
+    "he_resize_info": {
+      "original_shape": [
+        559,
+        489
+      ],
+      "scaled_shape": [
+        496,
+        434
+      ],
+      "scale_x": 0.8879652086250182,
+      "scale_y": 0.8879652086250182,
+      "src_px_per_cm_x": 226.9765072328221,
+      "src_px_per_cm_y": 226.9765072328221,
+      "target_px_per_cm": 201.5472415979708
+    },
+    "hsi_resize_info": {
+      "original_shape": [
+        398,
+        536
+      ],
+      "scaled_shape": [
+        391,
+        546
+      ],
+      "scale_x": 1.0187832553368805,
+      "scale_y": 0.9818968180413962,
+      "src_px_per_cm_x": 197.8313253012048,
+      "src_px_per_cm_y": 205.26315789473685,
+      "target_px_per_cm": 201.5472415979708
+    },
+    "he_real_width_cm": 2.154407986807226,
+    "he_real_height_cm": 2.4628099481088737,
+    "hsi_segmented_real_width_cm": 2.7093788063337394,
+    "hsi_segmented_real_height_cm": 1.9389743589743589,
+    "hsi_mask_area_px": 150376,
+    "hsi_segmentation_method": "blue_box_inner_contour",
+    "hsi_segmentation_info": {
+      "selected_method": "blue_box_inner_contour",
+      "selected_because": "blue_mask_quality_ok",
+      "blue_box_candidate": {
+        "method": "blue_box_inner_contour",
+        "quality": {
+          "area_px": 142713,
+          "bbox_area_px": 186208,
+          "fill_ratio": 0.7664171249355559,
+          "solidity": 0.9545113881168353,
+          "rectangularity": 0.7315538737987515,
+          "bbox_xyxy": [
+            280,
+            307,
+            785,
+            674
+          ],
+          "area_ratio_image": 0.10888137817382812
+        }
+      },
+      "gray_tray_candidate": {
+        "method": "gray_tray",
+        "ok": true,
+        "roi_bbox_xyxy": [
+          273,
+          264,
+          798,
+          690
+        ],
+        "threshold": 26.72,
+        "quality": {
+          "area_px": 150519,
+          "bbox_area_px": 207244,
+          "fill_ratio": 0.7262888189766652,
+          "solidity": 0.9388674751653036,
+          "rectangularity": 0.6818889497134119,
+          "bbox_xyxy": [
+            273,
+            297,
+            798,
+            690
+          ],
+          "area_ratio_image": 0.11483688354492187
+        }
+      },
+      "wavelengths_nm": {
+        "r": 651.9000244140625,
+        "g": 548.4400024414062,
+        "b": 449.4800109863281
+      }
+    },
+    "hsi_real_width_cm": 2.7093788063337394,
+    "hsi_real_height_cm": 1.9389743589743589
+  },
+  "he_scale_info": {
+    "openslide_path": "Datos\\SB013\\SB013\\H&E\\SB013.mrxs",
+    "he_path": "Datos\\SB013\\SB013\\H&E\\SB013.mrxs",
+    "reader": "PIL + Slidedat.ini",
+    "dimensions_level_0": [
+      131562,
+      299015
+    ],
+    "level_dimensions": [
+      [
+        131562,
+        299015
+      ],
+      [
+        65810,
+        149587
+      ],
+      [
+        32919,
+        74832
+      ],
+      [
+        16466,
+        37435
+      ],
+      [
+        8233,
+        18717
+      ],
+      [
+        4118,
+        9363
+      ],
+      [
+        2059,
+        4682
+      ],
+      [
+        1030,
+        2341
+      ],
+      [
+        515,
+        1171
+      ]
+    ],
+    "level_downsamples": [
+      1.0,
+      1.9990266283325306,
+      3.996177473368574,
+      7.988671386462087,
+      15.977342772924175,
+      31.94014731225974,
+      63.88029462451971,
+      127.76058924903886,
+      255.40535097444962
+    ],
+    "mpp_x": 0.1725,
+    "mpp_y": 0.1725
+  },
+  "he_segmentation_info": {
+    "method": "he_stain_chroma_mask",
+    "chosen_level": 8,
+    "read_dimensions": [
+      515,
+      1171
+    ],
+    "sat_thresh": 10,
+    "val_thresh": 252,
+    "od_thresh_ignored": 0.025,
+    "chroma_thresh": 4.0,
+    "close_kernel_size": 65,
+    "grow_pixels": 5,
+    "use_convex_hull": false,
+    "mask_area_px": 190544,
+    "reader": "PIL",
+    "slidedat_path": "Datos\\SB013\\SB013\\H&E\\Slidedat.ini"
+  },
+  "hsi_measure_info": {
+    "bbox_xyxy": [
+      195,
+      218,
+      1015,
+      802
+    ],
+    "bbox_width_px": 821,
+    "bbox_height_px": 585,
+    "horizontal_cm": 4.15,
+    "vertical_cm": 2.85,
+    "length_cm": 4.15,
+    "width_cm": 2.85,
+    "horizontal_is_long": true,
+    "px_per_cm_horizontal": 197.8313253012048,
+    "px_per_cm_vertical": 205.26315789473685
+  },
+  "hsi_segmentation_info": {
+    "selected_method": "blue_box_inner_contour",
+    "selected_because": "blue_mask_quality_ok",
+    "blue_box_candidate": {
+      "method": "blue_box_inner_contour",
+      "quality": {
+        "area_px": 142713,
+        "bbox_area_px": 186208,
+        "fill_ratio": 0.7664171249355559,
+        "solidity": 0.9545113881168353,
+        "rectangularity": 0.7315538737987515,
+        "bbox_xyxy": [
+          280,
+          307,
+          785,
+          674
+        ],
+        "area_ratio_image": 0.10888137817382812
+      }
+    },
+    "gray_tray_candidate": {
+      "method": "gray_tray",
+      "ok": true,
+      "roi_bbox_xyxy": [
+        273,
+        264,
+        798,
+        690
+      ],
+      "threshold": 26.72,
+      "quality": {
+        "area_px": 150519,
+        "bbox_area_px": 207244,
+        "fill_ratio": 0.7262888189766652,
+        "solidity": 0.9388674751653036,
+        "rectangularity": 0.6818889497134119,
+        "bbox_xyxy": [
+          273,
+          297,
+          798,
+          690
+        ],
+        "area_ratio_image": 0.11483688354492187
+      }
+    },
+    "wavelengths_nm": {
+      "r": 651.9000244140625,
+      "g": 548.4400024414062,
+      "b": 449.4800109863281
+    }
+  }
+}

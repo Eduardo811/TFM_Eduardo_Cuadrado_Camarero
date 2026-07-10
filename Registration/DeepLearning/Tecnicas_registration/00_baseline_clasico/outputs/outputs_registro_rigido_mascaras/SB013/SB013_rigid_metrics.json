@@ -1,0 +1,36 @@
+{
+  "subject_id": "SB013",
+  "registration_direction": "he_to_hsi",
+  "fixed_image": "hsi",
+  "moving_image": "he",
+  "best_angle_deg": 61.0,
+  "transform_matrix_2x3": [
+    [
+      0.4848096202463371,
+      0.8746197071393957,
+      -47.97374191357808
+    ],
+    [
+      -0.8746197071393957,
+      0.4848096202463371,
+      255.5243767181804
+    ]
+  ],
+  "initial_centroid_aligned_dice_angle_0": 0.8761829951870571,
+  "initial_centroid_aligned_iou_angle_0": 0.7796491701359297,
+  "rigid_dice": 0.9217635442833922,
+  "rigid_iou": 0.8548807076558899,
+  "rigid_symmetric_contour_distance_mean_px": 15.588562965393066,
+  "rigid_symmetric_contour_distance_p95_px": 40.0,
+  "he_rgb_shape": [
+    496,
+    434,
+    3
+  ],
+  "hsi_rgb_shape": [
+    391,
+    546,
+    3
+  ],
+  "target_px_per_cm": 201.5472415979708
+}

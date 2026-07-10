@@ -1,0 +1,34 @@
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor noise
+.DS_Store
+._*
+~$*
+~WR*.tmp
+*.tmp
+
+# Raw biomedical data kept out of the public repository
+Datos/**/*.hdr
+Datos/**/*.hrd
+Datos/**/*.raw
+Datos/**/*.mrxs
+Datos/**/*.dat
+Datos/**/*.ini
+Datos/**/*.sta
+
+# External documents and installers
+Papers/
+Documentos_enrique/
+*.exe
+*.msi
+*.zip
+
+# Optional model checkpoints
+*.pt
+*.pth
+*.ckpt

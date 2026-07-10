@@ -1,0 +1,10 @@
+*_h&e.png y *_hsi.png: imágenes RGB segmentadas y a escala, como antes.
+*_he_mask.png y *_hsi_mask.png: máscaras binarias explícitas.
+*_he_contour.png y *_hsi_contour.png: contornos de las máscaras.
+*_he_signed_distance.npy y *_hsi_signed_distance.npy: mapas de distancia firmada para registro basado en forma.
+*_pair_preview.png: vista rápida H&E/HSI con contorno superpuesto.
+*_metadata.json: escala, bboxes, rutas originales, shapes y áreas de máscara.
+
+Todas las máscaras tienen exactamente el mismo tamaño que su RGB correspondiente. Por ejemplo, en SB012:
+SB012_h&e.png  (458, 801) | SB012_he_mask.png  (458, 801)
+SB012_hsi.png  (629, 555) | SB012_hsi_mask.png (629, 555)

@@ -1,0 +1,34 @@
+{
+  "subject_id": "SB012",
+  "final_method": "nonrigid_final",
+  "final_note": "nonrigid_accepted",
+  "visual_review_flag": "ok",
+  "dice_final": "0.9702977049368624",
+  "iou_final": "0.9423089659884339",
+  "contour_mean_final_px": "7.603762626647949",
+  "contour_p95_final_px": "30.79999351501465",
+  "dice_rigid": "0.9260444903563353",
+  "dice_affine_final": "0.9260444903563353",
+  "dice_nonrigid_final": "0.9702977049368624",
+  "nonrigid_flow_p95_px": "34.265865325927734",
+  "nonrigid_flow_max_px": "35.94123458862305",
+  "target_px_per_cm": "201.66772352568165",
+  "files": {
+    "registered_he_rgb": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB012\\SB012_he_registered_to_hsi_baseline.png",
+    "registered_he_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB012\\SB012_he_registered_mask_to_hsi_baseline.png",
+    "overlay_rgb": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB012\\SB012_baseline_overlay_rgb.png",
+    "overlay_contours": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB012\\SB012_baseline_overlay_contours.png",
+    "metrics": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB012\\SB012_baseline_metrics.json",
+    "flow_magnitude": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB012\\SB012_baseline_flow_magnitude.png",
+    "flow_npz": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_baseline_clasico_final\\SB012\\SB012_baseline_dense_flow.npz"
+  },
+  "source_files": {
+    "registered_he_rgb": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_no_rigido_mascaras\\SB012\\SB012_he_nonrigid_to_hsi.png",
+    "registered_he_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_no_rigido_mascaras\\SB012\\SB012_he_mask_nonrigid_to_hsi.png",
+    "overlay_rgb": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_no_rigido_mascaras\\SB012\\SB012_overlay_rgb_nonrigid.png",
+    "overlay_contours": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_no_rigido_mascaras\\SB012\\SB012_overlay_contours_nonrigid.png",
+    "metrics": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_no_rigido_mascaras\\SB012\\SB012_nonrigid_metrics.json",
+    "flow_magnitude": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_no_rigido_mascaras\\SB012\\SB012_flow_magnitude.png",
+    "flow_npz": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_no_rigido_mascaras\\SB012\\SB012_dense_flow.npz"
+  }
+}

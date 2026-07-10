@@ -1,0 +1,309 @@
+{
+  "subject_id": "SB019",
+  "registration_direction": "he_to_hsi",
+  "fixed_image": "hsi",
+  "moving_image": "he",
+  "source_paths": {
+    "he_path": "Datos\\SB019\\SB019\\H&E\\SB019\\SB019.mrxs",
+    "hsi_hdr_path": "Datos\\SB019\\SB019\\SB019_001\\SB019_nrm_edu.hdr"
+  },
+  "files": {
+    "he_rgb": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_h&e.png",
+    "hsi_rgb": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi.png",
+    "he_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_he_mask.png",
+    "hsi_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi_mask.png",
+    "he_contour": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_he_contour.png",
+    "hsi_contour": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi_contour.png",
+    "he_signed_distance": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_he_signed_distance.npy",
+    "hsi_signed_distance": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi_signed_distance.npy",
+    "pair_preview": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_pair_preview.png",
+    "metadata": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_metadata.json"
+  },
+  "shapes": {
+    "he_rgb": [
+      544,
+      445,
+      3
+    ],
+    "hsi_rgb": [
+      527,
+      580,
+      3
+    ],
+    "he_mask": [
+      544,
+      445
+    ],
+    "hsi_mask": [
+      527,
+      580
+    ]
+  },
+  "mask_area_px": {
+    "he": 183812,
+    "hsi": 244937
+  },
+  "target_px_per_cm": 196.12132741492283,
+  "segmented_info": {
+    "target_px_per_cm": 196.12132741492283,
+    "he_scale": {
+      "chosen_level": 8,
+      "downsample": 255.40535097444962,
+      "mpp_x_at_level": 44.057423043092555,
+      "mpp_y_at_level": 44.057423043092555,
+      "px_per_cm_x": 226.9765072328221,
+      "px_per_cm_y": 226.9765072328221
+    },
+    "hsi_scale": {
+      "px_per_cm_x": 194.69879518072287,
+      "px_per_cm_y": 197.5438596491228,
+      "horizontal_cm": 4.15,
+      "vertical_cm": 2.85,
+      "bbox_xyxy": [
+        303,
+        246,
+        1110,
+        808
+      ]
+    },
+    "he_bbox_xyxy": [
+      0,
+      326,
+      514,
+      955
+    ],
+    "hsi_specimen_bbox_xyxy": [
+      442,
+      267,
+      1017,
+      797
+    ],
+    "he_resize_info": {
+      "original_shape": [
+        630,
+        515
+      ],
+      "scaled_shape": [
+        544,
+        445
+      ],
+      "scale_x": 0.8640600289692121,
+      "scale_y": 0.8640600289692121,
+      "src_px_per_cm_x": 226.9765072328221,
+      "src_px_per_cm_y": 226.9765072328221,
+      "target_px_per_cm": 196.12132741492283
+    },
+    "hsi_resize_info": {
+      "original_shape": [
+        531,
+        576
+      ],
+      "scaled_shape": [
+        527,
+        580
+      ],
+      "scale_x": 1.007306322737537,
+      "scale_y": 0.9927989043206574,
+      "src_px_per_cm_x": 194.69879518072287,
+      "src_px_per_cm_y": 197.5438596491228,
+      "target_px_per_cm": 196.12132741492283
+    },
+    "he_real_width_cm": 2.2689572867192664,
+    "he_real_height_cm": 2.775617651714831,
+    "hsi_segmented_real_width_cm": 2.958415841584159,
+    "hsi_segmented_real_height_cm": 2.688010657193606,
+    "hsi_mask_area_px": 245117,
+    "hsi_segmentation_method": "hyperlab_gray_roi_mask",
+    "hsi_segmentation_info": {
+      "selected_method": "hyperlab_gray_roi_mask",
+      "selected_because": "same_hyperlab_gray_display_used_for_contour",
+      "roi_xyxy": [
+        450,
+        275,
+        1010,
+        790
+      ],
+      "otsu_value": 62.0,
+      "threshold": 34.1,
+      "threshold_factor": 0.55,
+      "mask_area_px": 245117,
+      "display_mode": "hyperlab_full_range",
+      "grayscale_info": {
+        "display_mode": "hyperlab_full_range",
+        "shape": [
+          1024,
+          1280
+        ],
+        "min_nm": 435.989990234375,
+        "max_nm": 1700.0,
+        "num_bands": 282,
+        "p_low": 0.1,
+        "p_high": 99.9,
+        "gamma": 0.7
+      },
+      "mask_grayscale_info": {
+        "display_mode": "hyperlab_full_range",
+        "shape": [
+          1024,
+          1280
+        ],
+        "min_nm": 435.989990234375,
+        "max_nm": 1700.0,
+        "num_bands": 282,
+        "p_low": 0.1,
+        "p_high": 99.9,
+        "gamma": 0.7
+      },
+      "subject_id": "SB019",
+      "grow_pixels_requested": 5,
+      "final_dilation_kernel": [
+        5,
+        5
+      ]
+    },
+    "hsi_real_width_cm": 2.958415841584159,
+    "hsi_real_height_cm": 2.688010657193606
+  },
+  "he_scale_info": {
+    "openslide_path": "Datos\\SB019\\SB019\\H&E\\SB019\\SB019.mrxs",
+    "he_path": "Datos\\SB019\\SB019\\H&E\\SB019\\SB019.mrxs",
+    "reader": "PIL + Slidedat.ini",
+    "dimensions_level_0": [
+      131562,
+      299015
+    ],
+    "level_dimensions": [
+      [
+        131562,
+        299015
+      ],
+      [
+        65810,
+        149587
+      ],
+      [
+        32919,
+        74832
+      ],
+      [
+        16466,
+        37435
+      ],
+      [
+        8233,
+        18717
+      ],
+      [
+        4118,
+        9363
+      ],
+      [
+        2059,
+        4682
+      ],
+      [
+        1030,
+        2341
+      ],
+      [
+        515,
+        1171
+      ]
+    ],
+    "level_downsamples": [
+      1.0,
+      1.9990266283325306,
+      3.996177473368574,
+      7.988671386462087,
+      15.977342772924175,
+      31.94014731225974,
+      63.88029462451971,
+      127.76058924903886,
+      255.40535097444962
+    ],
+    "mpp_x": 0.1725,
+    "mpp_y": 0.1725
+  },
+  "he_segmentation_info": {
+    "method": "he_stain_chroma_mask",
+    "chosen_level": 8,
+    "read_dimensions": [
+      515,
+      1171
+    ],
+    "sat_thresh": 10,
+    "val_thresh": 252,
+    "od_thresh_ignored": 0.025,
+    "chroma_thresh": 4.0,
+    "close_kernel_size": 65,
+    "grow_pixels": 5,
+    "use_convex_hull": false,
+    "mask_area_px": 246455,
+    "reader": "PIL",
+    "slidedat_path": "Datos\\SB019\\SB019\\H&E\\SB019\\Slidedat.ini"
+  },
+  "hsi_measure_info": {
+    "bbox_xyxy": [
+      303,
+      246,
+      1110,
+      808
+    ],
+    "bbox_width_px": 808,
+    "bbox_height_px": 563,
+    "horizontal_cm": 4.15,
+    "vertical_cm": 2.85,
+    "length_cm": 4.15,
+    "width_cm": 2.85,
+    "horizontal_is_long": true,
+    "px_per_cm_horizontal": 194.69879518072287,
+    "px_per_cm_vertical": 197.5438596491228
+  },
+  "hsi_segmentation_info": {
+    "selected_method": "hyperlab_gray_roi_mask",
+    "selected_because": "same_hyperlab_gray_display_used_for_contour",
+    "roi_xyxy": [
+      450,
+      275,
+      1010,
+      790
+    ],
+    "otsu_value": 62.0,
+    "threshold": 34.1,
+    "threshold_factor": 0.55,
+    "mask_area_px": 245117,
+    "display_mode": "hyperlab_full_range",
+    "grayscale_info": {
+      "display_mode": "hyperlab_full_range",
+      "shape": [
+        1024,
+        1280
+      ],
+      "min_nm": 435.989990234375,
+      "max_nm": 1700.0,
+      "num_bands": 282,
+      "p_low": 0.1,
+      "p_high": 99.9,
+      "gamma": 0.7
+    },
+    "mask_grayscale_info": {
+      "display_mode": "hyperlab_full_range",
+      "shape": [
+        1024,
+        1280
+      ],
+      "min_nm": 435.989990234375,
+      "max_nm": 1700.0,
+      "num_bands": 282,
+      "p_low": 0.1,
+      "p_high": 99.9,
+      "gamma": 0.7
+    },
+    "subject_id": "SB019",
+    "grow_pixels_requested": 5,
+    "final_dilation_kernel": [
+      5,
+      5
+    ]
+  }
+}

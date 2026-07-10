@@ -1,0 +1,90 @@
+{
+  "device": "cpu",
+  "echo": true,
+  "save_final_images": true,
+  "save_final_displacement_field": false,
+  "case_name": "Default_Nonrigid",
+  "logging_path": null,
+  "loading_params": {
+    "final_level": 0,
+    "pad_value": 0.0,
+    "loader": "pil",
+    "source_resample_ratio": 1.0,
+    "target_resample_ratio": 1.0
+  },
+  "saving_params": {
+    "saver": "pil",
+    "final_saver": "pil",
+    "save_params": "pil",
+    "extension": ".png",
+    "final_extension": ".png"
+  },
+  "preprocessing_params": {
+    "preprocessing_function": "basic_preprocessing",
+    "initial_resampling": true,
+    "initial_resolution": 512,
+    "normalization": true,
+    "convert_to_gray": true,
+    "clahe": true,
+    "save_results": true,
+    "flip_intensity": false
+  },
+  "run_initial_registration": true,
+  "initial_registration_params": {
+    "save_results": true,
+    "initial_registration_function": "multi_feature",
+    "registration_size": 512,
+    "registration_sizes": [
+      220,
+      320,
+      420,
+      512
+    ],
+    "transform_type": "rigid",
+    "keypoint_threshold": 0.005,
+    "match_threshold": 0.3,
+    "sinkhorn_iterations": 50,
+    "show": false,
+    "angle_step": 90,
+    "cuda": false,
+    "device": "cpu",
+    "echo": true,
+    "run_sift_ransac": true,
+    "run_superpoint_superglue": false,
+    "run_superpoint_ransac": false
+  },
+  "run_nonrigid_registration": true,
+  "nonrigid_registration_params": {
+    "save_results": true,
+    "nonrigid_registration_function": "instance_optimization_nonrigid_registration",
+    "device": "cpu",
+    "echo": true,
+    "cost_function": "ncc_local",
+    "cost_function_params": {
+      "win_size": 7
+    },
+    "regularization_function": "diffusion_relative",
+    "regularization_function_params": {},
+    "registration_size": 512,
+    "num_levels": 4,
+    "used_levels": 4,
+    "iterations": [
+      30,
+      30,
+      40,
+      50
+    ],
+    "learning_rates": [
+      0.004,
+      0.003,
+      0.002,
+      0.001
+    ],
+    "alphas": [
+      2.0,
+      2.0,
+      2.2,
+      2.5
+    ]
+  }
+}

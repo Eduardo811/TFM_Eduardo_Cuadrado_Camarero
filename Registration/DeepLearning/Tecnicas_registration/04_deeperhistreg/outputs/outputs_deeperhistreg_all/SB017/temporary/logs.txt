@@ -1,0 +1,16 @@
+Image loading finished.
+Source shape: torch.Size([1, 3, 531, 557])
+Target shape: torch.Size([1, 3, 531, 557])
+Loading time: 0.021535396575927734 seconds.
+Preprocessing finished.
+Preprocessed source shape: torch.Size([1, 1, 512, 537])
+Preprocessed target shape: torch.Size([1, 1, 512, 537])
+Preprocessing time: 0.020003080368041992 seconds.
+Preprocessing saved.
+Initial registration finished.
+Initial registration time: 1.7010643482208252 seconds.
+Initial alignment saved.
+Nonrigid registration finished.
+Nonrigid registration time: 4.504484176635742 seconds.
+Nonrigid registration saved.
+Total registration time: 6.4985435009002686 seconds.

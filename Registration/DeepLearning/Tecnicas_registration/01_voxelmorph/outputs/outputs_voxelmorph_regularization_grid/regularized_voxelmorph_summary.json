@@ -1,0 +1,3390 @@
+{
+  "configs": [
+    {
+      "tag": "reg_s015_d018",
+      "label": "smooth=0.15, max_disp=0.18",
+      "smooth_weight": 0.15,
+      "max_disp_norm": 0.18
+    },
+    {
+      "tag": "reg_s030_d015",
+      "label": "smooth=0.30, max_disp=0.15",
+      "smooth_weight": 0.3,
+      "max_disp_norm": 0.15
+    },
+    {
+      "tag": "reg_s050_d012",
+      "label": "smooth=0.50, max_disp=0.12",
+      "smooth_weight": 0.5,
+      "max_disp_norm": 0.12
+    },
+    {
+      "tag": "reg_s080_d010",
+      "label": "smooth=0.80, max_disp=0.10",
+      "smooth_weight": 0.8,
+      "max_disp_norm": 0.1
+    }
+  ],
+  "subjects": [
+    "SB012",
+    "SB013",
+    "SB017",
+    "SB018",
+    "SB019",
+    "SB020"
+  ],
+  "rows": [
+    {
+      "config_tag": "reg_s015_d018",
+      "config_label": "smooth=0.15, max_disp=0.18",
+      "smooth_weight": 0.15,
+      "max_disp_norm": 0.18,
+      "subject": "SB012",
+      "initial_stage": "rigid",
+      "initial_dice": 0.9260444903563353,
+      "baseline_dice": 0.9702977049368624,
+      "voxelmorph_dice": 0.9964679039183629,
+      "voxelmorph_minus_baseline": 0.026170198981500525,
+      "flow_mean_px": 14.20247745513916,
+      "flow_p95_px": 56.74976348876953,
+      "flow_max_px": 73.97042083740234,
+      "flow_smoothness_px": 0.7033259868621826,
+      "jacobian_det_min": -9.875484466552734,
+      "jacobian_det_p01": -0.32318812906742095,
+      "jacobian_det_negative_fraction": 0.0371331585957977,
+      "quality_status": "acceptable_exploratory"
+    },
+    {
+      "config_tag": "reg_s015_d018",
+      "config_label": "smooth=0.15, max_disp=0.18",
+      "smooth_weight": 0.15,
+      "max_disp_norm": 0.18,
+      "subject": "SB013",
+      "initial_stage": "affine",
+      "initial_dice": 0.9414837224937295,
+      "baseline_dice": 0.9839331152308252,
+      "voxelmorph_dice": 0.9965625467045285,
+      "voxelmorph_minus_baseline": 0.012629431473703323,
+      "flow_mean_px": 11.988120079040527,
+      "flow_p95_px": 29.5751953125,
+      "flow_max_px": 45.70819091796875,
+      "flow_smoothness_px": 0.7143235802650452,
+      "jacobian_det_min": -14.044135093688965,
+      "jacobian_det_p01": -0.1729976274073124,
+      "jacobian_det_negative_fraction": 0.01972494683492126,
+      "quality_status": "acceptable_exploratory"
+    },
+    {
+      "config_tag": "reg_s015_d018",
+      "config_label": "smooth=0.15, max_disp=0.18",
+      "smooth_weight": 0.15,
+      "max_disp_norm": 0.18,
+      "subject": "SB017",
+      "initial_stage": "rigid",
+      "initial_dice": 0.608630797966172,
+      "baseline_dice": 0.608630797966172,
+      "voxelmorph_dice": 0.9189957604131086,
+      "voxelmorph_minus_baseline": 0.31036496244693657,
+      "flow_mean_px": 42.53085708618164,
+      "flow_p95_px": 68.95492553710938,
+      "flow_max_px": 68.9891128540039,
+      "flow_smoothness_px": 1.8645179271697998,
+      "jacobian_det_min": -129.277587890625,
+      "jacobian_det_p01": -2.0382901859283447,
+      "jacobian_det_negative_fraction": 0.2012327271128963,
+      "quality_status": "reject_as_final"
+    },
+    {
+      "config_tag": "reg_s015_d018",
+      "config_label": "smooth=0.15, max_disp=0.18",
+      "smooth_weight": 0.15,
+      "max_disp_norm": 0.18,
+      "subject": "SB018",
+      "initial_stage": "rigid",
+      "initial_dice": 0.8385216845033766,
+      "baseline_dice": 0.976882042029085,
+      "voxelmorph_dice": 0.9699695516328684,
+      "voxelmorph_minus_baseline": -0.006912490396216664,
+      "flow_mean_px": 23.566679000854492,
+      "flow_p95_px": 67.69809608459472,
+      "flow_max_px": 67.70950317382812,
+      "flow_smoothness_px": 1.3812613487243652,
+      "jacobian_det_min": -424.22052001953125,
+      "jacobian_det_p01": -2.2936644434928892,
+      "jacobian_det_negative_fraction": 0.08789459971410665,
+      "quality_status": "needs_review"
+    },
+    {
+      "config_tag": "reg_s015_d018",
+      "config_label": "smooth=0.15, max_disp=0.18",
+      "smooth_weight": 0.15,
+      "max_disp_norm": 0.18,
+      "subject": "SB019",
+      "initial_stage": "rigid",
+      "initial_dice": 0.8520236687494607,
+      "baseline_dice": 0.9709685703398114,
+      "voxelmorph_dice": 0.9883459583734197,
+      "voxelmorph_minus_baseline": 0.01737738803360822,
+      "flow_mean_px": 23.88292694091797,
+      "flow_p95_px": 70.13953590393066,
+      "flow_max_px": 70.25424194335938,
+      "flow_smoothness_px": 1.0201704502105713,
+      "jacobian_det_min": -15.392494201660156,
+      "jacobian_det_p01": -1.1683590352535247,
+      "jacobian_det_negative_fraction": 0.10485179611332854,
+      "quality_status": "reject_as_final"
+    },
+    {
+      "config_tag": "reg_s015_d018",
+      "config_label": "smooth=0.15, max_disp=0.18",
+      "smooth_weight": 0.15,
+      "max_disp_norm": 0.18,
+      "subject": "SB020",
+      "initial_stage": "affine",
+      "initial_dice": 0.8899381721611817,
+      "baseline_dice": 0.9650062303447458,
+      "voxelmorph_dice": 0.9917560381450343,
+      "voxelmorph_minus_baseline": 0.026749807800288572,
+      "flow_mean_px": 19.7562313079834,
+      "flow_p95_px": 57.696700668334955,
+      "flow_max_px": 66.35968017578125,
+      "flow_smoothness_px": 0.9754897356033325,
+      "jacobian_det_min": -13.15616226196289,
+      "jacobian_det_p01": -0.5051399648189545,
+      "jacobian_det_negative_fraction": 0.06340718105423988,
+      "quality_status": "needs_review"
+    },
+    {
+      "config_tag": "reg_s030_d015",
+      "config_label": "smooth=0.30, max_disp=0.15",
+      "smooth_weight": 0.3,
+      "max_disp_norm": 0.15,
+      "subject": "SB012",
+      "initial_stage": "rigid",
+      "initial_dice": 0.9260444903563353,
+      "baseline_dice": 0.9702977049368624,
+      "voxelmorph_dice": 0.9959928658283596,
+      "voxelmorph_minus_baseline": 0.02569516089149715,
+      "flow_mean_px": 12.46135425567627,
+      "flow_p95_px": 43.7015941619873,
+      "flow_max_px": 62.215309143066406,
+      "flow_smoothness_px": 0.6376557350158691,
+      "jacobian_det_min": -17.00295066833496,
+      "jacobian_det_p01": -0.2809591966867447,
+      "jacobian_det_negative_fraction": 0.029719703805554363,
+      "quality_status": "acceptable_exploratory"
+    },
+    {
+      "config_tag": "reg_s030_d015",
+      "config_label": "smooth=0.30, max_disp=0.15",
+      "smooth_weight": 0.3,
+      "max_disp_norm": 0.15,
+      "subject": "SB013",
+      "initial_stage": "affine",
+      "initial_dice": 0.9414837224937295,
+      "baseline_dice": 0.9839331152308252,
+      "voxelmorph_dice": 0.9968224845777495,
+      "voxelmorph_minus_baseline": 0.012889369346924306,
+      "flow_mean_px": 9.08983325958252,
+      "flow_p95_px": 23.381471633911133,
+      "flow_max_px": 39.55868148803711,
+      "flow_smoothness_px": 0.6550482511520386,
+      "jacobian_det_min": -21.534025192260742,
+      "jacobian_det_p01": -0.07072728537023068,
+      "jacobian_det_negative_fraction": 0.013813552176723531,
+      "quality_status": "acceptable_exploratory"
+    },
+    {
+      "config_tag": "reg_s030_d015",
+      "config_label": "smooth=0.30, max_disp=0.15",
+      "smooth_weight": 0.3,
+      "max_disp_norm": 0.15,
+      "subject": "SB017",
+      "initial_stage": "rigid",
+      "initial_dice": 0.608630797966172,
+      "baseline_dice": 0.608630797966172,
+      "voxelmorph_dice": 0.8872238381487945,
+      "voxelmorph_minus_baseline": 0.27859304018262243,
+      "flow_mean_px": 35.276947021484375,
+      "flow_p95_px": 57.480472564697266,
+      "flow_max_px": 57.49090576171875,
+      "flow_smoothness_px": 1.5276014804840088,
+      "jacobian_det_min": -158.93487548828125,
+      "jacobian_det_p01": -1.684583070278168,
+      "jacobian_det_negative_fraction": 0.18131840266155452,
+      "quality_status": "reject_as_final"
+    },
+    {
+      "config_tag": "reg_s030_d015",
+      "config_label": "smooth=0.30, max_disp=0.15",
+      "smooth_weight": 0.3,
+      "max_disp_norm": 0.15,
+      "subject": "SB018",
+      "initial_stage": "rigid",
+      "initial_dice": 0.8385216845033766,
+      "baseline_dice": 0.976882042029085,
+      "voxelmorph_dice": 0.9621832046954293,
+      "voxelmorph_minus_baseline": -0.014698837333655734,
+      "flow_mean_px": 19.815906524658203,
+      "flow_p95_px": 56.42314128875732,
+      "flow_max_px": 56.424583435058594,
+      "flow_smoothness_px": 1.1439292430877686,
+      "jacobian_det_min": -393.9584655761719,
+      "jacobian_det_p01": -1.818195388317108,
+      "jacobian_det_negative_fraction": 0.07496602375872291,
+      "quality_status": "needs_review"
+    },
+    {
+      "config_tag": "reg_s030_d015",
+      "config_label": "smooth=0.30, max_disp=0.15",
+      "smooth_weight": 0.3,
+      "max_disp_norm": 0.15,
+      "subject": "SB019",
+      "initial_stage": "rigid",
+      "initial_dice": 0.8520236687494607,
+      "baseline_dice": 0.9709685703398114,
+      "voxelmorph_dice": 0.9748654434696132,
+      "voxelmorph_minus_baseline": 0.0038968731298018033,
+      "flow_mean_px": 19.755207061767578,
+      "flow_p95_px": 58.216308784484866,
+      "flow_max_px": 58.54520034790039,
+      "flow_smoothness_px": 1.1585263013839722,
+      "jacobian_det_min": -81.49420166015625,
+      "jacobian_det_p01": -1.7417957603931427,
+      "jacobian_det_negative_fraction": 0.1086959366616502,
+      "quality_status": "reject_as_final"
+    },
+    {
+      "config_tag": "reg_s030_d015",
+      "config_label": "smooth=0.30, max_disp=0.15",
+      "smooth_weight": 0.3,
+      "max_disp_norm": 0.15,
+      "subject": "SB020",
+      "initial_stage": "affine",
+      "initial_dice": 0.8899381721611817,
+      "baseline_dice": 0.9650062303447458,
+      "voxelmorph_dice": 0.9887293553807758,
+      "voxelmorph_minus_baseline": 0.023723125036030024,
+      "flow_mean_px": 17.850439071655273,
+      "flow_p95_px": 54.33141670227051,
+      "flow_max_px": 55.30385208129883,
+      "flow_smoothness_px": 0.8815840482711792,
+      "jacobian_det_min": -8.070430755615234,
+      "jacobian_det_p01": -0.4487210786342621,
+      "jacobian_det_negative_fraction": 0.05146828164730978,
+      "quality_status": "needs_review"
+    },
+    {
+      "config_tag": "reg_s050_d012",
+      "config_label": "smooth=0.50, max_disp=0.12",
+      "smooth_weight": 0.5,
+      "max_disp_norm": 0.12,
+      "subject": "SB012",
+      "initial_stage": "rigid",
+      "initial_dice": 0.9260444903563353,
+      "baseline_dice": 0.9702977049368624,
+      "voxelmorph_dice": 0.9924883456908293,
+      "voxelmorph_minus_baseline": 0.022190640753966928,
+      "flow_mean_px": 15.213047981262207,
+      "flow_p95_px": 48.71843338012695,
+      "flow_max_px": 50.132450103759766,
+      "flow_smoothness_px": 0.5457569360733032,
+      "jacobian_det_min": -31.973388671875,
+      "jacobian_det_p01": -0.224104081094265,
+      "jacobian_det_negative_fraction": 0.0261647975479454,
+      "quality_status": "acceptable_exploratory"
+    },
+    {
+      "config_tag": "reg_s050_d012",
+      "config_label": "smooth=0.50, max_disp=0.12",
+      "smooth_weight": 0.5,
+      "max_disp_norm": 0.12,
+      "subject": "SB013",
+      "initial_stage": "affine",
+      "initial_dice": 0.9414837224937295,
+      "baseline_dice": 0.9839331152308252,
+      "voxelmorph_dice": 0.9963427933079767,
+      "voxelmorph_minus_baseline": 0.012409678077151542,
+      "flow_mean_px": 8.474615097045898,
+      "flow_p95_px": 23.016953468322754,
+      "flow_max_px": 36.41943359375,
+      "flow_smoothness_px": 0.5700797438621521,
+      "jacobian_det_min": -18.317489624023438,
+      "jacobian_det_p01": -0.01828316487371922,
+      "jacobian_det_negative_fraction": 0.011199797644810433,
+      "quality_status": "acceptable_exploratory"
+    },
+    {
+      "config_tag": "reg_s050_d012",
+      "config_label": "smooth=0.50, max_disp=0.12",
+      "smooth_weight": 0.5,
+      "max_disp_norm": 0.12,
+      "subject": "SB017",
+      "initial_stage": "rigid",
+      "initial_dice": 0.608630797966172,
+      "baseline_dice": 0.608630797966172,
+      "voxelmorph_dice": 0.8469864962817794,
+      "voxelmorph_minus_baseline": 0.23835569831560732,
+      "flow_mean_px": 28.591819763183594,
+      "flow_p95_px": 45.98103332519531,
+      "flow_max_px": 45.99272918701172,
+      "flow_smoothness_px": 1.331470251083374,
+      "jacobian_det_min": -65.47434997558594,
+      "jacobian_det_p01": -1.7279302382469177,
+      "jacobian_det_negative_fraction": 0.15504096129723735,
+      "quality_status": "reject_as_final"
+    },
+    {
+      "config_tag": "reg_s050_d012",
+      "config_label": "smooth=0.50, max_disp=0.12",
+      "smooth_weight": 0.5,
+      "max_disp_norm": 0.12,
+      "subject": "SB018",
+      "initial_stage": "rigid",
+      "initial_dice": 0.8385216845033766,
+      "baseline_dice": 0.976882042029085,
+      "voxelmorph_dice": 0.950115231935998,
+      "voxelmorph_minus_baseline": -0.026766810093087012,
+      "flow_mean_px": 17.95013427734375,
+      "flow_p95_px": 45.139163970947266,
+      "flow_max_px": 45.13966369628906,
+      "flow_smoothness_px": 0.9691240787506104,
+      "jacobian_det_min": -265.63970947265625,
+      "jacobian_det_p01": -1.0795463502407074,
+      "jacobian_det_negative_fraction": 0.06293526557801861,
+      "quality_status": "needs_review"
+    },
+    {
+      "config_tag": "reg_s050_d012",
+      "config_label": "smooth=0.50, max_disp=0.12",
+      "smooth_weight": 0.5,
+      "max_disp_norm": 0.12,
+      "subject": "SB019",
+      "initial_stage": "rigid",
+      "initial_dice": 0.8520236687494607,
+      "baseline_dice": 0.9709685703398114,
+      "voxelmorph_dice": 0.9671500406605714,
+      "voxelmorph_minus_baseline": -0.0038185296792400125,
+      "flow_mean_px": 20.05493927001953,
+      "flow_p95_px": 46.78449325561523,
+      "flow_max_px": 46.83615493774414,
+      "flow_smoothness_px": 0.9658514261245728,
+      "jacobian_det_min": -36.65338134765625,
+      "jacobian_det_p01": -1.605810101032257,
+      "jacobian_det_negative_fraction": 0.09266178106392724,
+      "quality_status": "needs_review"
+    },
+    {
+      "config_tag": "reg_s050_d012",
+      "config_label": "smooth=0.50, max_disp=0.12",
+      "smooth_weight": 0.5,
+      "max_disp_norm": 0.12,
+      "subject": "SB020",
+      "initial_stage": "affine",
+      "initial_dice": 0.8899381721611817,
+      "baseline_dice": 0.9650062303447458,
+      "voxelmorph_dice": 0.980598510345379,
+      "voxelmorph_minus_baseline": 0.015592280000633285,
+      "flow_mean_px": 15.839364051818848,
+      "flow_p95_px": 44.035122299194335,
+      "flow_max_px": 44.24311447143555,
+      "flow_smoothness_px": 0.8428488373756409,
+      "jacobian_det_min": -13.376434326171875,
+      "jacobian_det_p01": -0.43679400980472566,
+      "jacobian_det_negative_fraction": 0.04783309898399413,
+      "quality_status": "acceptable_exploratory"
+    },
+    {
+      "config_tag": "reg_s080_d010",
+      "config_label": "smooth=0.80, max_disp=0.10",
+      "smooth_weight": 0.8,
+      "max_disp_norm": 0.1,
+      "subject": "SB012",
+      "initial_stage": "rigid",
+      "initial_dice": 0.9260444903563353,
+      "baseline_dice": 0.9702977049368624,
+      "voxelmorph_dice": 0.9886973501906656,
+      "voxelmorph_minus_baseline": 0.01839964525380322,
+      "flow_mean_px": 11.74760913848877,
+      "flow_p95_px": 41.23868064880371,
+      "flow_max_px": 41.776737213134766,
+      "flow_smoothness_px": 0.5047802925109863,
+      "jacobian_det_min": -16.821792602539062,
+      "jacobian_det_p01": -0.2025885298848152,
+      "jacobian_det_negative_fraction": 0.03124364428021026,
+      "quality_status": "acceptable_exploratory"
+    },
+    {
+      "config_tag": "reg_s080_d010",
+      "config_label": "smooth=0.80, max_disp=0.10",
+      "smooth_weight": 0.8,
+      "max_disp_norm": 0.1,
+      "subject": "SB013",
+      "initial_stage": "affine",
+      "initial_dice": 0.9414837224937295,
+      "baseline_dice": 0.9839331152308252,
+      "voxelmorph_dice": 0.9967602879152752,
+      "voxelmorph_minus_baseline": 0.012827172684449994,
+      "flow_mean_px": 8.672486305236816,
+      "flow_p95_px": 22.543811798095703,
+      "flow_max_px": 28.941650390625,
+      "flow_smoothness_px": 0.5354137420654297,
+      "jacobian_det_min": -8.59691333770752,
+      "jacobian_det_p01": -0.00034045289503410476,
+      "jacobian_det_negative_fraction": 0.010014708224426894,
+      "quality_status": "acceptable_exploratory"
+    },
+    {
+      "config_tag": "reg_s080_d010",
+      "config_label": "smooth=0.80, max_disp=0.10",
+      "smooth_weight": 0.8,
+      "max_disp_norm": 0.1,
+      "subject": "SB017",
+      "initial_stage": "rigid",
+      "initial_dice": 0.608630797966172,
+      "baseline_dice": 0.608630797966172,
+      "voxelmorph_dice": 0.817096823962443,
+      "voxelmorph_minus_baseline": 0.20846602599627095,
+      "flow_mean_px": 24.097335815429688,
+      "flow_p95_px": 38.321448135375974,
+      "flow_max_px": 38.32728576660156,
+      "flow_smoothness_px": 1.038006067276001,
+      "jacobian_det_min": -20.463245391845703,
+      "jacobian_det_p01": -1.0818437600135804,
+      "jacobian_det_negative_fraction": 0.12429716635053945,
+      "quality_status": "reject_as_final"
+    },
+    {
+      "config_tag": "reg_s080_d010",
+      "config_label": "smooth=0.80, max_disp=0.10",
+      "smooth_weight": 0.8,
+      "max_disp_norm": 0.1,
+      "subject": "SB018",
+      "initial_stage": "rigid",
+      "initial_dice": 0.8385216845033766,
+      "baseline_dice": 0.976882042029085,
+      "voxelmorph_dice": 0.9397235155589911,
+      "voxelmorph_minus_baseline": -0.03715852647009388,
+      "flow_mean_px": 17.03014373779297,
+      "flow_p95_px": 37.61593246459961,
+      "flow_max_px": 37.616390228271484,
+      "flow_smoothness_px": 0.8472570180892944,
+      "jacobian_det_min": -216.01979064941406,
+      "jacobian_det_p01": -0.778692399263382,
+      "jacobian_det_negative_fraction": 0.0664772447204794,
+      "quality_status": "needs_review"
+    },
+    {
+      "config_tag": "reg_s080_d010",
+      "config_label": "smooth=0.80, max_disp=0.10",
+      "smooth_weight": 0.8,
+      "max_disp_norm": 0.1,
+      "subject": "SB019",
+      "initial_stage": "rigid",
+      "initial_dice": 0.8520236687494607,
+      "baseline_dice": 0.9709685703398114,
+      "voxelmorph_dice": 0.9560768352355009,
+      "voxelmorph_minus_baseline": -0.014891735104310522,
+      "flow_mean_px": 16.3354549407959,
+      "flow_p95_px": 39.022873115539554,
+      "flow_max_px": 39.03013229370117,
+      "flow_smoothness_px": 0.8532966375350952,
+      "jacobian_det_min": -29.329538345336914,
+      "jacobian_det_p01": -1.2436998879909515,
+      "jacobian_det_negative_fraction": 0.0831413989399987,
+      "quality_status": "needs_review"
+    },
+    {
+      "config_tag": "reg_s080_d010",
+      "config_label": "smooth=0.80, max_disp=0.10",
+      "smooth_weight": 0.8,
+      "max_disp_norm": 0.1,
+      "subject": "SB020",
+      "initial_stage": "affine",
+      "initial_dice": 0.8899381721611817,
+      "baseline_dice": 0.9650062303447458,
+      "voxelmorph_dice": 0.9753043408517283,
+      "voxelmorph_minus_baseline": 0.010298110506982594,
+      "flow_mean_px": 16.233972549438477,
+      "flow_p95_px": 36.863002395629884,
+      "flow_max_px": 36.86924362182617,
+      "flow_smoothness_px": 0.6404117345809937,
+      "jacobian_det_min": -8.804262161254883,
+      "jacobian_det_p01": -0.2567662703990936,
+      "jacobian_det_negative_fraction": 0.03445488867483752,
+      "quality_status": "acceptable_exploratory"
+    }
+  ],
+  "config_summary": [
+    {
+      "config_tag": "current_s008_d022",
+      "config_label": "current smooth=0.08, max_disp=0.22",
+      "mean_dice": 0.9842314701999478,
+      "mean_gain_vs_baseline": 0.07161172672536424,
+      "mean_flow_p95_px": 64.77383295694987,
+      "mean_negative_jacobian_fraction": 0.09873789945156747,
+      "acceptable_count": 2,
+      "needs_review_count": 1,
+      "reject_count": 3,
+      "not_better_count": 0
+    },
+    {
+      "config_tag": "reg_s015_d018",
+      "config_label": "smooth=0.15, max_disp=0.18",
+      "mean_dice": 0.9770162931978871,
+      "mean_gain_vs_baseline": 0.06439654972330343,
+      "mean_flow_p95_px": 58.469036165873206,
+      "mean_negative_jacobian_fraction": 0.08570740157088173,
+      "acceptable_count": 2,
+      "needs_review_count": 2,
+      "reject_count": 2,
+      "not_better_count": 0
+    },
+    {
+      "config_tag": "reg_s030_d015",
+      "config_label": "smooth=0.30, max_disp=0.15",
+      "mean_dice": 0.9676361986834535,
+      "mean_gain_vs_baseline": 0.055016455208869997,
+      "mean_flow_p95_px": 48.92240085601807,
+      "mean_negative_jacobian_fraction": 0.07666365011858589,
+      "acceptable_count": 2,
+      "needs_review_count": 2,
+      "reject_count": 2,
+      "not_better_count": 0
+    },
+    {
+      "config_tag": "reg_s050_d012",
+      "config_label": "smooth=0.50, max_disp=0.12",
+      "mean_dice": 0.9556135697037557,
+      "mean_gain_vs_baseline": 0.04299382622917201,
+      "mean_flow_p95_px": 42.27919994990031,
+      "mean_negative_jacobian_fraction": 0.0659726170193222,
+      "acceptable_count": 3,
+      "needs_review_count": 2,
+      "reject_count": 1,
+      "not_better_count": 0
+    },
+    {
+      "config_tag": "reg_s080_d010",
+      "config_label": "smooth=0.80, max_disp=0.10",
+      "mean_dice": 0.9456098589524341,
+      "mean_gain_vs_baseline": 0.03299011547785039,
+      "mean_flow_p95_px": 35.93429142634074,
+      "mean_negative_jacobian_fraction": 0.0582715085317487,
+      "acceptable_count": 3,
+      "needs_review_count": 2,
+      "reject_count": 1,
+      "not_better_count": 0
+    }
+  ],
+  "summaries": {
+    "reg_s015_d018::SB012": {
+      "subject": "SB012",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.15,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.18,
+      "output_tag": "reg_s015_d018",
+      "initial_dice": 0.9260444903563353,
+      "final_dice": 0.9964679039183629,
+      "flow_mean_px": 14.20247745513916,
+      "flow_p50_px": 5.671245574951172,
+      "flow_p95_px": 56.74976348876953,
+      "flow_max_px": 73.97042083740234,
+      "flow_smoothness_px": 0.7033259868621826,
+      "jacobian_det_min": -9.875484466552734,
+      "jacobian_det_p01": -0.32318812906742095,
+      "jacobian_det_negative_fraction": 0.0371331585957977,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB012\\SB012_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB012\\SB012_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.17265528440475464,
+          "sdf_mse": 0.13952624797821045,
+          "dice_loss": 0.07362008094787598,
+          "smoothness": 0.0,
+          "small_dice": 0.9263799432093636
+        },
+        {
+          "iteration": 25,
+          "loss": 0.02355259470641613,
+          "sdf_mse": 0.016777560114860535,
+          "dice_loss": 0.014014363288879395,
+          "smoothness": 0.003123803064227104,
+          "small_dice": 0.9861407249466951
+        },
+        {
+          "iteration": 50,
+          "loss": 0.01271161437034607,
+          "sdf_mse": 0.006597318686544895,
+          "dice_loss": 0.012670934200286865,
+          "smoothness": 0.002749172504991293,
+          "small_dice": 0.9873643469682022
+        },
+        {
+          "iteration": 75,
+          "loss": 0.007239372003823519,
+          "sdf_mse": 0.004151911940425634,
+          "dice_loss": 0.005967855453491211,
+          "smoothness": 0.0026795032899826765,
+          "small_dice": 0.9944066890653634
+        },
+        {
+          "iteration": 100,
+          "loss": 0.005167277529835701,
+          "sdf_mse": 0.0027654569130390882,
+          "dice_loss": 0.004441201686859131,
+          "smoothness": 0.0026885326951742172,
+          "small_dice": 0.9963594668195499
+        },
+        {
+          "iteration": 125,
+          "loss": 0.004614669363945723,
+          "sdf_mse": 0.0025017892476171255,
+          "dice_loss": 0.0037782788276672363,
+          "smoothness": 0.00275102979503572,
+          "small_dice": 0.9968524276488878
+        },
+        {
+          "iteration": 150,
+          "loss": 0.004323731176555157,
+          "sdf_mse": 0.002199044916778803,
+          "dice_loss": 0.003813028335571289,
+          "smoothness": 0.0027254889719188213,
+          "small_dice": 0.9969583349274974
+        },
+        {
+          "iteration": 175,
+          "loss": 0.004470136482268572,
+          "sdf_mse": 0.002337235491722822,
+          "dice_loss": 0.00384676456451416,
+          "smoothness": 0.0026790467090904713,
+          "small_dice": 0.9968063948596344
+        },
+        {
+          "iteration": 200,
+          "loss": 0.0033856190275400877,
+          "sdf_mse": 0.001776484539732337,
+          "dice_loss": 0.0026921629905700684,
+          "smoothness": 0.002651072572916746,
+          "small_dice": 0.9980965862896823
+        },
+        {
+          "iteration": 225,
+          "loss": 0.0034035693388432264,
+          "sdf_mse": 0.0017517890082672238,
+          "dice_loss": 0.0027810335159301758,
+          "smoothness": 0.002668768633157015,
+          "small_dice": 0.9979419732169351
+        },
+        {
+          "iteration": 250,
+          "loss": 0.003973820246756077,
+          "sdf_mse": 0.0021744186524301767,
+          "dice_loss": 0.0030869245529174805,
+          "smoothness": 0.0027352366596460342,
+          "small_dice": 0.9976854508588698
+        }
+      ]
+    },
+    "reg_s015_d018::SB013": {
+      "subject": "SB013",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "affine",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.15,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.18,
+      "output_tag": "reg_s015_d018",
+      "initial_dice": 0.9414837224937295,
+      "final_dice": 0.9965625467045285,
+      "flow_mean_px": 11.988120079040527,
+      "flow_p50_px": 7.887187480926514,
+      "flow_p95_px": 29.5751953125,
+      "flow_max_px": 45.70819091796875,
+      "flow_smoothness_px": 0.7143235802650452,
+      "jacobian_det_min": -14.044135093688965,
+      "jacobian_det_p01": -0.1729976274073124,
+      "jacobian_det_negative_fraction": 0.01972494683492126,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB013\\SB013_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB013\\SB013_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.08235929161310196,
+          "sdf_mse": 0.05602584779262543,
+          "dice_loss": 0.05851876735687256,
+          "smoothness": 0.0,
+          "small_dice": 0.9414812396668106
+        },
+        {
+          "iteration": 25,
+          "loss": 0.00928448885679245,
+          "sdf_mse": 0.004951212555170059,
+          "dice_loss": 0.00881505012512207,
+          "smoothness": 0.0024433587677776814,
+          "small_dice": 0.9916443015005487
+        },
+        {
+          "iteration": 50,
+          "loss": 0.005996020045131445,
+          "sdf_mse": 0.002806172939017415,
+          "dice_loss": 0.006232023239135742,
+          "smoothness": 0.002569577656686306,
+          "small_dice": 0.994419811830864
+        },
+        {
+          "iteration": 75,
+          "loss": 0.005525303538888693,
+          "sdf_mse": 0.0023877988569438457,
+          "dice_loss": 0.0060533881187438965,
+          "smoothness": 0.0027565360069274902,
+          "small_dice": 0.9944544723049823
+        },
+        {
+          "iteration": 100,
+          "loss": 0.004378240089863539,
+          "sdf_mse": 0.0019899141043424606,
+          "dice_loss": 0.004372894763946533,
+          "smoothness": 0.002803487703204155,
+          "small_dice": 0.9963144430473052
+        },
+        {
+          "iteration": 125,
+          "loss": 0.003603972028940916,
+          "sdf_mse": 0.0016112526645883918,
+          "dice_loss": 0.0034900307655334473,
+          "smoothness": 0.0028147026896476746,
+          "small_dice": 0.9971862689926843
+        },
+        {
+          "iteration": 150,
+          "loss": 0.0036166950594633818,
+          "sdf_mse": 0.0015974929556250572,
+          "dice_loss": 0.0035439133644104004,
+          "smoothness": 0.0028296071104705334,
+          "small_dice": 0.9972389150560338
+        },
+        {
+          "iteration": 175,
+          "loss": 0.0037327618338167667,
+          "sdf_mse": 0.0016076946631073952,
+          "dice_loss": 0.0037841796875,
+          "smoothness": 0.0028145750984549522,
+          "small_dice": 0.9968372254235085
+        },
+        {
+          "iteration": 200,
+          "loss": 0.003293571760877967,
+          "sdf_mse": 0.0014112500939518213,
+          "dice_loss": 0.003238379955291748,
+          "smoothness": 0.0028336714021861553,
+          "small_dice": 0.9974947672085633
+        },
+        {
+          "iteration": 225,
+          "loss": 0.002924793167039752,
+          "sdf_mse": 0.0012774965725839138,
+          "dice_loss": 0.0026961565017700195,
+          "smoothness": 0.0028935088776052,
+          "small_dice": 0.9981244782688826
+        },
+        {
+          "iteration": 250,
+          "loss": 0.002942549530416727,
+          "sdf_mse": 0.001231249189004302,
+          "dice_loss": 0.0028433799743652344,
+          "smoothness": 0.002878529019653797,
+          "small_dice": 0.9979949494402116
+        }
+      ]
+    },
+    "reg_s015_d018::SB017": {
+      "subject": "SB017",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.15,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.18,
+      "output_tag": "reg_s015_d018",
+      "initial_dice": 0.608630797966172,
+      "final_dice": 0.9189957604131086,
+      "flow_mean_px": 42.53085708618164,
+      "flow_p50_px": 50.447540283203125,
+      "flow_p95_px": 68.95492553710938,
+      "flow_max_px": 68.9891128540039,
+      "flow_smoothness_px": 1.8645179271697998,
+      "jacobian_det_min": -129.277587890625,
+      "jacobian_det_p01": -2.0382901859283447,
+      "jacobian_det_negative_fraction": 0.2012327271128963,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB017\\SB017_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB017\\SB017_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB017\\SB017_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB017\\SB017_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 1.2151567935943604,
+          "sdf_mse": 1.03904128074646,
+          "dice_loss": 0.3913678526878357,
+          "smoothness": 0.0,
+          "small_dice": 0.6086320409656182
+        },
+        {
+          "iteration": 25,
+          "loss": 0.21578122675418854,
+          "sdf_mse": 0.1699116826057434,
+          "dice_loss": 0.09948235750198364,
+          "smoothness": 0.007349955849349499,
+          "small_dice": 0.9011132490379329
+        },
+        {
+          "iteration": 50,
+          "loss": 0.19156047701835632,
+          "sdf_mse": 0.14997652173042297,
+          "dice_loss": 0.08997511863708496,
+          "smoothness": 0.007300965487957001,
+          "small_dice": 0.9106217173846172
+        },
+        {
+          "iteration": 75,
+          "loss": 0.1830327957868576,
+          "sdf_mse": 0.14288586378097534,
+          "dice_loss": 0.08674025535583496,
+          "smoothness": 0.007425443269312382,
+          "small_dice": 0.9137128617107224
+        },
+        {
+          "iteration": 100,
+          "loss": 0.18154844641685486,
+          "sdf_mse": 0.14206191897392273,
+          "dice_loss": 0.08524411916732788,
+          "smoothness": 0.007511175237596035,
+          "small_dice": 0.915539887416842
+        },
+        {
+          "iteration": 125,
+          "loss": 0.1868477314710617,
+          "sdf_mse": 0.1468704491853714,
+          "dice_loss": 0.08637583255767822,
+          "smoothness": 0.0073876939713954926,
+          "small_dice": 0.9143012728881629
+        },
+        {
+          "iteration": 150,
+          "loss": 0.17814545333385468,
+          "sdf_mse": 0.13908478617668152,
+          "dice_loss": 0.08438408374786377,
+          "smoothness": 0.007252230774611235,
+          "small_dice": 0.9162619841008086
+        },
+        {
+          "iteration": 175,
+          "loss": 0.18137739598751068,
+          "sdf_mse": 0.14173166453838348,
+          "dice_loss": 0.08562135696411133,
+          "smoothness": 0.007440805435180664,
+          "small_dice": 0.9148612435845029
+        },
+        {
+          "iteration": 200,
+          "loss": 0.17299321293830872,
+          "sdf_mse": 0.13476242125034332,
+          "dice_loss": 0.08253246545791626,
+          "smoothness": 0.0072745345532894135,
+          "small_dice": 0.918008602004108
+        },
+        {
+          "iteration": 225,
+          "loss": 0.17408044636249542,
+          "sdf_mse": 0.13537989556789398,
+          "dice_loss": 0.08351999521255493,
+          "smoothness": 0.007443695794790983,
+          "small_dice": 0.9171676838260318
+        },
+        {
+          "iteration": 250,
+          "loss": 0.1702178716659546,
+          "sdf_mse": 0.13240063190460205,
+          "dice_loss": 0.08158910274505615,
+          "smoothness": 0.007347659207880497,
+          "small_dice": 0.9189630166787527
+        }
+      ]
+    },
+    "reg_s015_d018::SB018": {
+      "subject": "SB018",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.15,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.18,
+      "output_tag": "reg_s015_d018",
+      "initial_dice": 0.8385216845033766,
+      "final_dice": 0.9699695516328684,
+      "flow_mean_px": 23.566679000854492,
+      "flow_p50_px": 12.053693294525146,
+      "flow_p95_px": 67.69809608459472,
+      "flow_max_px": 67.70950317382812,
+      "flow_smoothness_px": 1.3812613487243652,
+      "jacobian_det_min": -424.22052001953125,
+      "jacobian_det_p01": -2.2936644434928892,
+      "jacobian_det_negative_fraction": 0.08789459971410665,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB018\\SB018_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB018\\SB018_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.47578853368759155,
+          "sdf_mse": 0.40306276082992554,
+          "dice_loss": 0.161612868309021,
+          "smoothness": 0.0,
+          "small_dice": 0.8383871556285349
+        },
+        {
+          "iteration": 25,
+          "loss": 0.053792208433151245,
+          "sdf_mse": 0.03730880841612816,
+          "dice_loss": 0.03478550910949707,
+          "smoothness": 0.005532809533178806,
+          "small_dice": 0.9654854051036511
+        },
+        {
+          "iteration": 50,
+          "loss": 0.04641250893473625,
+          "sdf_mse": 0.031681980937719345,
+          "dice_loss": 0.031009316444396973,
+          "smoothness": 0.005175572354346514,
+          "small_dice": 0.9694302469467908
+        },
+        {
+          "iteration": 75,
+          "loss": 0.046035341918468475,
+          "sdf_mse": 0.030986223369836807,
+          "dice_loss": 0.031780362129211426,
+          "smoothness": 0.004986383952200413,
+          "small_dice": 0.9685921041363363
+        },
+        {
+          "iteration": 100,
+          "loss": 0.04180923104286194,
+          "sdf_mse": 0.02818075194954872,
+          "dice_loss": 0.028719782829284668,
+          "smoothness": 0.004697203636169434,
+          "small_dice": 0.9717130961067949
+        },
+        {
+          "iteration": 125,
+          "loss": 0.0430145263671875,
+          "sdf_mse": 0.02963509038090706,
+          "dice_loss": 0.028200089931488037,
+          "smoothness": 0.004595973528921604,
+          "small_dice": 0.9720570685187774
+        },
+        {
+          "iteration": 150,
+          "loss": 0.04531591758131981,
+          "sdf_mse": 0.031933970749378204,
+          "dice_loss": 0.028155982494354248,
+          "smoothness": 0.004745014943182468,
+          "small_dice": 0.9722640940608984
+        },
+        {
+          "iteration": 175,
+          "loss": 0.04126453772187233,
+          "sdf_mse": 0.02791374921798706,
+          "dice_loss": 0.02798396348953247,
+          "smoothness": 0.0050533548928797245,
+          "small_dice": 0.9724366993055256
+        },
+        {
+          "iteration": 200,
+          "loss": 0.040617700666189194,
+          "sdf_mse": 0.027631636708974838,
+          "dice_loss": 0.027254760265350342,
+          "smoothness": 0.004809463396668434,
+          "small_dice": 0.9733850935016615
+        },
+        {
+          "iteration": 225,
+          "loss": 0.04422994330525398,
+          "sdf_mse": 0.029503624886274338,
+          "dice_loss": 0.031009912490844727,
+          "smoothness": 0.005145713221281767,
+          "small_dice": 0.9693924656725391
+        },
+        {
+          "iteration": 250,
+          "loss": 0.04646021127700806,
+          "sdf_mse": 0.03208145499229431,
+          "dice_loss": 0.0301743745803833,
+          "smoothness": 0.005335256457328796,
+          "small_dice": 0.9700345879082397
+        }
+      ]
+    },
+    "reg_s015_d018::SB019": {
+      "subject": "SB019",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.15,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.18,
+      "output_tag": "reg_s015_d018",
+      "initial_dice": 0.8520236687494607,
+      "final_dice": 0.9883459583734197,
+      "flow_mean_px": 23.88292694091797,
+      "flow_p50_px": 12.227464199066162,
+      "flow_p95_px": 70.13953590393066,
+      "flow_max_px": 70.25424194335938,
+      "flow_smoothness_px": 1.0201704502105713,
+      "jacobian_det_min": -15.392494201660156,
+      "jacobian_det_p01": -1.1683590352535247,
+      "jacobian_det_negative_fraction": 0.10485179611332854,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB019\\SB019_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB019\\SB019_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.44797825813293457,
+          "sdf_mse": 0.3814312219619751,
+          "dice_loss": 0.14788228273391724,
+          "smoothness": 0.0,
+          "small_dice": 0.8521177315147165
+        },
+        {
+          "iteration": 25,
+          "loss": 0.03381141275167465,
+          "sdf_mse": 0.023180486634373665,
+          "dice_loss": 0.02211177349090576,
+          "smoothness": 0.004537523724138737,
+          "small_dice": 0.9780275834191505
+        },
+        {
+          "iteration": 50,
+          "loss": 0.02139151468873024,
+          "sdf_mse": 0.013675378635525703,
+          "dice_loss": 0.01580280065536499,
+          "smoothness": 0.004032507538795471,
+          "small_dice": 0.9845456379126526
+        },
+        {
+          "iteration": 75,
+          "loss": 0.018508046865463257,
+          "sdf_mse": 0.011710647493600845,
+          "dice_loss": 0.013708114624023438,
+          "smoothness": 0.004191647749394178,
+          "small_dice": 0.9867742400230515
+        },
+        {
+          "iteration": 100,
+          "loss": 0.018060896545648575,
+          "sdf_mse": 0.011247786693274975,
+          "dice_loss": 0.013723015785217285,
+          "smoothness": 0.004251688718795776,
+          "small_dice": 0.9866725643293973
+        },
+        {
+          "iteration": 125,
+          "loss": 0.018137602135539055,
+          "sdf_mse": 0.01120605319738388,
+          "dice_loss": 0.01403355598449707,
+          "smoothness": 0.004109648056328297,
+          "small_dice": 0.9864271648816099
+        },
+        {
+          "iteration": 150,
+          "loss": 0.01710757613182068,
+          "sdf_mse": 0.010739456862211227,
+          "dice_loss": 0.01276308298110962,
+          "smoothness": 0.004164877347648144,
+          "small_dice": 0.9877124836551034
+        },
+        {
+          "iteration": 175,
+          "loss": 0.0170432236045599,
+          "sdf_mse": 0.01073793787509203,
+          "dice_loss": 0.012647092342376709,
+          "smoothness": 0.004093953408300877,
+          "small_dice": 0.987741242374247
+        },
+        {
+          "iteration": 200,
+          "loss": 0.016583550721406937,
+          "sdf_mse": 0.010335788130760193,
+          "dice_loss": 0.012522459030151367,
+          "smoothness": 0.004084377083927393,
+          "small_dice": 0.9880410787983491
+        },
+        {
+          "iteration": 225,
+          "loss": 0.016156407073140144,
+          "sdf_mse": 0.010233838111162186,
+          "dice_loss": 0.011760532855987549,
+          "smoothness": 0.004202197305858135,
+          "small_dice": 0.9887089799644453
+        },
+        {
+          "iteration": 250,
+          "loss": 0.015591288916766644,
+          "sdf_mse": 0.009818038903176785,
+          "dice_loss": 0.011476218700408936,
+          "smoothness": 0.004059677477926016,
+          "small_dice": 0.9889620058600317
+        }
+      ]
+    },
+    "reg_s015_d018::SB020": {
+      "subject": "SB020",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "affine",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.15,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.18,
+      "output_tag": "reg_s015_d018",
+      "initial_dice": 0.8899381721611817,
+      "final_dice": 0.9917560381450343,
+      "flow_mean_px": 19.7562313079834,
+      "flow_p50_px": 11.189628601074219,
+      "flow_p95_px": 57.696700668334955,
+      "flow_max_px": 66.35968017578125,
+      "flow_smoothness_px": 0.9754897356033325,
+      "jacobian_det_min": -13.15616226196289,
+      "jacobian_det_p01": -0.5051399648189545,
+      "jacobian_det_negative_fraction": 0.06340718105423988,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB020\\SB020_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB020\\SB020_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB020\\SB020_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB020\\SB020_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.28056833148002625,
+          "sdf_mse": 0.23106545209884644,
+          "dice_loss": 0.11000639200210571,
+          "smoothness": 0.0,
+          "small_dice": 0.8899935856318153
+        },
+        {
+          "iteration": 25,
+          "loss": 0.02306162193417549,
+          "sdf_mse": 0.013817854225635529,
+          "dice_loss": 0.01922518014907837,
+          "smoothness": 0.0039495788514614105,
+          "small_dice": 0.98099038747602
+        },
+        {
+          "iteration": 50,
+          "loss": 0.01609485223889351,
+          "sdf_mse": 0.00876729004085064,
+          "dice_loss": 0.014900267124176025,
+          "smoothness": 0.0041496120393276215,
+          "small_dice": 0.9856095908689673
+        },
+        {
+          "iteration": 75,
+          "loss": 0.014322064816951752,
+          "sdf_mse": 0.008381622843444347,
+          "dice_loss": 0.011893868446350098,
+          "smoothness": 0.003921342082321644,
+          "small_dice": 0.9885295050599106
+        },
+        {
+          "iteration": 100,
+          "loss": 0.011125103570520878,
+          "sdf_mse": 0.006265320815145969,
+          "dice_loss": 0.00950711965560913,
+          "smoothness": 0.0038771862164139748,
+          "small_dice": 0.9911158420503162
+        },
+        {
+          "iteration": 125,
+          "loss": 0.011098035611212254,
+          "sdf_mse": 0.006066277157515287,
+          "dice_loss": 0.009870290756225586,
+          "smoothness": 0.003934185951948166,
+          "small_dice": 0.9906161835057448
+        },
+        {
+          "iteration": 150,
+          "loss": 0.01008104719221592,
+          "sdf_mse": 0.005524228326976299,
+          "dice_loss": 0.008827030658721924,
+          "smoothness": 0.0038976939395070076,
+          "small_dice": 0.9917497845092969
+        },
+        {
+          "iteration": 175,
+          "loss": 0.008827830664813519,
+          "sdf_mse": 0.004707671701908112,
+          "dice_loss": 0.007856965065002441,
+          "smoothness": 0.003896834794431925,
+          "small_dice": 0.9929658340511054
+        },
+        {
+          "iteration": 200,
+          "loss": 0.009470062330365181,
+          "sdf_mse": 0.005282486788928509,
+          "dice_loss": 0.0080338716506958,
+          "smoothness": 0.0038155540823936462,
+          "small_dice": 0.9925889479996309
+        },
+        {
+          "iteration": 225,
+          "loss": 0.008393282070755959,
+          "sdf_mse": 0.004691312089562416,
+          "dice_loss": 0.006957292556762695,
+          "smoothness": 0.0038079216610640287,
+          "small_dice": 0.9936562506394908
+        },
+        {
+          "iteration": 250,
+          "loss": 0.0090658413246274,
+          "sdf_mse": 0.00474004540592432,
+          "dice_loss": 0.008342504501342773,
+          "smoothness": 0.003811127971857786,
+          "small_dice": 0.9922415471810272
+        }
+      ]
+    },
+    "reg_s030_d015::SB012": {
+      "subject": "SB012",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.3,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.15,
+      "output_tag": "reg_s030_d015",
+      "initial_dice": 0.9260444903563353,
+      "final_dice": 0.9959928658283596,
+      "flow_mean_px": 12.46135425567627,
+      "flow_p50_px": 4.942975997924805,
+      "flow_p95_px": 43.7015941619873,
+      "flow_max_px": 62.215309143066406,
+      "flow_smoothness_px": 0.6376557350158691,
+      "jacobian_det_min": -17.00295066833496,
+      "jacobian_det_p01": -0.2809591966867447,
+      "jacobian_det_negative_fraction": 0.029719703805554363,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB012\\SB012_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB012\\SB012_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.17265528440475464,
+          "sdf_mse": 0.13952624797821045,
+          "dice_loss": 0.07362008094787598,
+          "smoothness": 0.0,
+          "small_dice": 0.9263799432093636
+        },
+        {
+          "iteration": 25,
+          "loss": 0.020621804520487785,
+          "sdf_mse": 0.012374840676784515,
+          "dice_loss": 0.01673215627670288,
+          "smoothness": 0.0023916438221931458,
+          "small_dice": 0.9833247672891325
+        },
+        {
+          "iteration": 50,
+          "loss": 0.010499089024960995,
+          "sdf_mse": 0.005797053687274456,
+          "dice_loss": 0.008704841136932373,
+          "smoothness": 0.002616188256070018,
+          "small_dice": 0.9917011652867219
+        },
+        {
+          "iteration": 75,
+          "loss": 0.007514514960348606,
+          "sdf_mse": 0.0038474570028483868,
+          "dice_loss": 0.006404221057891846,
+          "smoothness": 0.0026171947829425335,
+          "small_dice": 0.9940939417434838
+        },
+        {
+          "iteration": 100,
+          "loss": 0.008793814107775688,
+          "sdf_mse": 0.004604351241141558,
+          "dice_loss": 0.007583498954772949,
+          "smoothness": 0.0025896281003952026,
+          "small_dice": 0.9925678257546809
+        },
+        {
+          "iteration": 125,
+          "loss": 0.006064369343221188,
+          "sdf_mse": 0.0029864762909710407,
+          "dice_loss": 0.0051451921463012695,
+          "smoothness": 0.0025418554432690144,
+          "small_dice": 0.995427325080835
+        },
+        {
+          "iteration": 150,
+          "loss": 0.006682150531560183,
+          "sdf_mse": 0.0036958041600883007,
+          "dice_loss": 0.0048354268074035645,
+          "smoothness": 0.0027013481594622135,
+          "small_dice": 0.9956483899042646
+        },
+        {
+          "iteration": 175,
+          "loss": 0.004989891778677702,
+          "sdf_mse": 0.002453531138598919,
+          "dice_loss": 0.003977179527282715,
+          "smoothness": 0.0024887658655643463,
+          "small_dice": 0.9966026432392601
+        },
+        {
+          "iteration": 200,
+          "loss": 0.007513237651437521,
+          "sdf_mse": 0.003985251300036907,
+          "dice_loss": 0.006226181983947754,
+          "smoothness": 0.0024206824600696564,
+          "small_dice": 0.9942785950452825
+        },
+        {
+          "iteration": 225,
+          "loss": 0.0067258174531161785,
+          "sdf_mse": 0.003450238611549139,
+          "dice_loss": 0.005598008632659912,
+          "smoothness": 0.00252158148214221,
+          "small_dice": 0.9949086323994383
+        },
+        {
+          "iteration": 250,
+          "loss": 0.005102030001580715,
+          "sdf_mse": 0.002506005112081766,
+          "dice_loss": 0.0040819644927978516,
+          "smoothness": 0.0025304704904556274,
+          "small_dice": 0.9965568690462527
+        }
+      ]
+    },
+    "reg_s030_d015::SB013": {
+      "subject": "SB013",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "affine",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.3,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.15,
+      "output_tag": "reg_s030_d015",
+      "initial_dice": 0.9414837224937295,
+      "final_dice": 0.9968224845777495,
+      "flow_mean_px": 9.08983325958252,
+      "flow_p50_px": 6.838884592056274,
+      "flow_p95_px": 23.381471633911133,
+      "flow_max_px": 39.55868148803711,
+      "flow_smoothness_px": 0.6550482511520386,
+      "jacobian_det_min": -21.534025192260742,
+      "jacobian_det_p01": -0.07072728537023068,
+      "jacobian_det_negative_fraction": 0.013813552176723531,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB013\\SB013_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB013\\SB013_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.08235929161310196,
+          "sdf_mse": 0.05602584779262543,
+          "dice_loss": 0.05851876735687256,
+          "smoothness": 0.0,
+          "small_dice": 0.9414812396668106
+        },
+        {
+          "iteration": 25,
+          "loss": 0.007747669704258442,
+          "sdf_mse": 0.0035856785252690315,
+          "dice_loss": 0.00756603479385376,
+          "smoothness": 0.00252425204962492,
+          "small_dice": 0.9929005755411279
+        },
+        {
+          "iteration": 50,
+          "loss": 0.00544714042916894,
+          "sdf_mse": 0.002336856909096241,
+          "dice_loss": 0.0051757097244262695,
+          "smoothness": 0.002604047767817974,
+          "small_dice": 0.9954716817610608
+        },
+        {
+          "iteration": 75,
+          "loss": 0.004289282951503992,
+          "sdf_mse": 0.0018237533513456583,
+          "dice_loss": 0.0037159323692321777,
+          "smoothness": 0.0026445332914590836,
+          "small_dice": 0.9971946926617926
+        },
+        {
+          "iteration": 100,
+          "loss": 0.0038978098891675472,
+          "sdf_mse": 0.0016120101790875196,
+          "dice_loss": 0.003338634967803955,
+          "smoothness": 0.0026113800704479218,
+          "small_dice": 0.9974417898798942
+        },
+        {
+          "iteration": 125,
+          "loss": 0.0038339155726134777,
+          "sdf_mse": 0.001515101408585906,
+          "dice_loss": 0.003402888774871826,
+          "smoothness": 0.002625047694891691,
+          "small_dice": 0.9972901491501908
+        },
+        {
+          "iteration": 150,
+          "loss": 0.004040082450956106,
+          "sdf_mse": 0.0015813998179510236,
+          "dice_loss": 0.003711998462677002,
+          "smoothness": 0.002627612091600895,
+          "small_dice": 0.9969420949902408
+        },
+        {
+          "iteration": 175,
+          "loss": 0.0036476857494562864,
+          "sdf_mse": 0.0015944538172334433,
+          "dice_loss": 0.0028195977210998535,
+          "smoothness": 0.0026147100143134594,
+          "small_dice": 0.9980807806993766
+        },
+        {
+          "iteration": 200,
+          "loss": 0.003451521508395672,
+          "sdf_mse": 0.0014069267781451344,
+          "dice_loss": 0.00282365083694458,
+          "smoothness": 0.0025798396673053503,
+          "small_dice": 0.9980728839616309
+        },
+        {
+          "iteration": 225,
+          "loss": 0.003444703994318843,
+          "sdf_mse": 0.001299662864767015,
+          "dice_loss": 0.003015279769897461,
+          "smoothness": 0.002627217210829258,
+          "small_dice": 0.9978103455751637
+        },
+        {
+          "iteration": 250,
+          "loss": 0.0032420470379292965,
+          "sdf_mse": 0.0013512203004211187,
+          "dice_loss": 0.002435624599456787,
+          "smoothness": 0.002649319591000676,
+          "small_dice": 0.9984072464867325
+        }
+      ]
+    },
+    "reg_s030_d015::SB017": {
+      "subject": "SB017",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.3,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.15,
+      "output_tag": "reg_s030_d015",
+      "initial_dice": 0.608630797966172,
+      "final_dice": 0.8872238381487945,
+      "flow_mean_px": 35.276947021484375,
+      "flow_p50_px": 42.26346969604492,
+      "flow_p95_px": 57.480472564697266,
+      "flow_max_px": 57.49090576171875,
+      "flow_smoothness_px": 1.5276014804840088,
+      "jacobian_det_min": -158.93487548828125,
+      "jacobian_det_p01": -1.684583070278168,
+      "jacobian_det_negative_fraction": 0.18131840266155452,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB017\\SB017_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB017\\SB017_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB017\\SB017_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB017\\SB017_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 1.2151567935943604,
+          "sdf_mse": 1.03904128074646,
+          "dice_loss": 0.3913678526878357,
+          "smoothness": 0.0,
+          "small_dice": 0.6086320409656182
+        },
+        {
+          "iteration": 25,
+          "loss": 0.30905649065971375,
+          "sdf_mse": 0.25127846002578735,
+          "dice_loss": 0.12445336580276489,
+          "smoothness": 0.005913418252021074,
+          "small_dice": 0.8752793394650796
+        },
+        {
+          "iteration": 50,
+          "loss": 0.28941836953163147,
+          "sdf_mse": 0.23367226123809814,
+          "dice_loss": 0.11973655223846436,
+          "smoothness": 0.006215534172952175,
+          "small_dice": 0.879672131147541
+        },
+        {
+          "iteration": 75,
+          "loss": 0.2858548164367676,
+          "sdf_mse": 0.23095928132534027,
+          "dice_loss": 0.11775624752044678,
+          "smoothness": 0.006350785493850708,
+          "small_dice": 0.8817977422830109
+        },
+        {
+          "iteration": 100,
+          "loss": 0.2815150022506714,
+          "sdf_mse": 0.2270185351371765,
+          "dice_loss": 0.11699068546295166,
+          "smoothness": 0.006168869789689779,
+          "small_dice": 0.8822456140350877
+        },
+        {
+          "iteration": 125,
+          "loss": 0.28207388520240784,
+          "sdf_mse": 0.22772647440433502,
+          "dice_loss": 0.11669546365737915,
+          "smoothness": 0.00611482746899128,
+          "small_dice": 0.882692690699064
+        },
+        {
+          "iteration": 150,
+          "loss": 0.2777051329612732,
+          "sdf_mse": 0.2240687906742096,
+          "dice_loss": 0.11512362957000732,
+          "smoothness": 0.0061023179441690445,
+          "small_dice": 0.8840077702623633
+        },
+        {
+          "iteration": 175,
+          "loss": 0.281310111284256,
+          "sdf_mse": 0.2264171689748764,
+          "dice_loss": 0.1178661584854126,
+          "smoothness": 0.006177200004458427,
+          "small_dice": 0.8813364460764186
+        },
+        {
+          "iteration": 200,
+          "loss": 0.27778735756874084,
+          "sdf_mse": 0.2241164743900299,
+          "dice_loss": 0.11527281999588013,
+          "smoothness": 0.0059937587939202785,
+          "small_dice": 0.8840367616929111
+        },
+        {
+          "iteration": 225,
+          "loss": 0.27327218651771545,
+          "sdf_mse": 0.21997717022895813,
+          "dice_loss": 0.11448162794113159,
+          "smoothness": 0.005927582271397114,
+          "small_dice": 0.8847436602576855
+        },
+        {
+          "iteration": 250,
+          "loss": 0.27693402767181396,
+          "sdf_mse": 0.2233802229166031,
+          "dice_loss": 0.11501598358154297,
+          "smoothness": 0.005988714750856161,
+          "small_dice": 0.8842127425637186
+        }
+      ]
+    },
+    "reg_s030_d015::SB018": {
+      "subject": "SB018",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.3,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.15,
+      "output_tag": "reg_s030_d015",
+      "initial_dice": 0.8385216845033766,
+      "final_dice": 0.9621832046954293,
+      "flow_mean_px": 19.815906524658203,
+      "flow_p50_px": 10.682141304016113,
+      "flow_p95_px": 56.42314128875732,
+      "flow_max_px": 56.424583435058594,
+      "flow_smoothness_px": 1.1439292430877686,
+      "jacobian_det_min": -393.9584655761719,
+      "jacobian_det_p01": -1.818195388317108,
+      "jacobian_det_negative_fraction": 0.07496602375872291,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB018\\SB018_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB018\\SB018_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.47578853368759155,
+          "sdf_mse": 0.40306276082992554,
+          "dice_loss": 0.161612868309021,
+          "smoothness": 0.0,
+          "small_dice": 0.8383871556285349
+        },
+        {
+          "iteration": 25,
+          "loss": 0.07798773050308228,
+          "sdf_mse": 0.05704584717750549,
+          "dice_loss": 0.043268680572509766,
+          "smoothness": 0.004903262481093407,
+          "small_dice": 0.9566313501765824
+        },
+        {
+          "iteration": 50,
+          "loss": 0.0795893669128418,
+          "sdf_mse": 0.058241166174411774,
+          "dice_loss": 0.04438871145248413,
+          "smoothness": 0.004577624145895243,
+          "small_dice": 0.955474104276915
+        },
+        {
+          "iteration": 75,
+          "loss": 0.07122618705034256,
+          "sdf_mse": 0.05189818888902664,
+          "dice_loss": 0.039570748805999756,
+          "smoothness": 0.005070550367236137,
+          "small_dice": 0.9603195276547712
+        },
+        {
+          "iteration": 100,
+          "loss": 0.06777709722518921,
+          "sdf_mse": 0.048513151705265045,
+          "dice_loss": 0.03974181413650513,
+          "smoothness": 0.004600423853844404,
+          "small_dice": 0.960108666123336
+        },
+        {
+          "iteration": 125,
+          "loss": 0.07036840915679932,
+          "sdf_mse": 0.05180417001247406,
+          "dice_loss": 0.03809577226638794,
+          "smoothness": 0.0047371359542012215,
+          "small_dice": 0.9618772782503038
+        },
+        {
+          "iteration": 150,
+          "loss": 0.06933377683162689,
+          "sdf_mse": 0.05009542405605316,
+          "dice_loss": 0.039777278900146484,
+          "smoothness": 0.004461917094886303,
+          "small_dice": 0.9599982678546297
+        },
+        {
+          "iteration": 175,
+          "loss": 0.06910981237888336,
+          "sdf_mse": 0.049520619213581085,
+          "dice_loss": 0.040415406227111816,
+          "smoothness": 0.004674190655350685,
+          "small_dice": 0.9594992556208773
+        },
+        {
+          "iteration": 200,
+          "loss": 0.06693167984485626,
+          "sdf_mse": 0.048154160380363464,
+          "dice_loss": 0.038728296756744385,
+          "smoothness": 0.0044992845505476,
+          "small_dice": 0.9612207634118772
+        },
+        {
+          "iteration": 225,
+          "loss": 0.06941636651754379,
+          "sdf_mse": 0.050071507692337036,
+          "dice_loss": 0.04001438617706299,
+          "smoothness": 0.004461272619664669,
+          "small_dice": 0.9599930554802026
+        },
+        {
+          "iteration": 250,
+          "loss": 0.06600598245859146,
+          "sdf_mse": 0.04775324836373329,
+          "dice_loss": 0.037551820278167725,
+          "smoothness": 0.004514722153544426,
+          "small_dice": 0.9623793792923585
+        }
+      ]
+    },
+    "reg_s030_d015::SB019": {
+      "subject": "SB019",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.3,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.15,
+      "output_tag": "reg_s030_d015",
+      "initial_dice": 0.8520236687494607,
+      "final_dice": 0.9748654434696132,
+      "flow_mean_px": 19.755207061767578,
+      "flow_p50_px": 10.695729732513428,
+      "flow_p95_px": 58.216308784484866,
+      "flow_max_px": 58.54520034790039,
+      "flow_smoothness_px": 1.1585263013839722,
+      "jacobian_det_min": -81.49420166015625,
+      "jacobian_det_p01": -1.7417957603931427,
+      "jacobian_det_negative_fraction": 0.1086959366616502,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB019\\SB019_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB019\\SB019_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.44797825813293457,
+          "sdf_mse": 0.3814312219619751,
+          "dice_loss": 0.14788228273391724,
+          "smoothness": 0.0,
+          "small_dice": 0.8521177315147165
+        },
+        {
+          "iteration": 25,
+          "loss": 0.04823901131749153,
+          "sdf_mse": 0.03299834579229355,
+          "dice_loss": 0.0305405855178833,
+          "smoothness": 0.0049913376569747925,
+          "small_dice": 0.969507579433629
+        },
+        {
+          "iteration": 50,
+          "loss": 0.04145415499806404,
+          "sdf_mse": 0.02763132005929947,
+          "dice_loss": 0.02753084897994995,
+          "smoothness": 0.0047798436135053635,
+          "small_dice": 0.9723983262298425
+        },
+        {
+          "iteration": 75,
+          "loss": 0.04248203709721565,
+          "sdf_mse": 0.028811443597078323,
+          "dice_loss": 0.027075588703155518,
+          "smoothness": 0.004955274052917957,
+          "small_dice": 0.9728162869607367
+        },
+        {
+          "iteration": 100,
+          "loss": 0.03834101930260658,
+          "sdf_mse": 0.025190815329551697,
+          "dice_loss": 0.02625906467437744,
+          "smoothness": 0.004445409402251244,
+          "small_dice": 0.9738932810162972
+        },
+        {
+          "iteration": 125,
+          "loss": 0.039797093719244,
+          "sdf_mse": 0.02706397883594036,
+          "dice_loss": 0.02552264928817749,
+          "smoothness": 0.004159741103649139,
+          "small_dice": 0.9745016136379054
+        },
+        {
+          "iteration": 150,
+          "loss": 0.03596298396587372,
+          "sdf_mse": 0.023352235555648804,
+          "dice_loss": 0.024870097637176514,
+          "smoothness": 0.004730686545372009,
+          "small_dice": 0.9751788539755575
+        },
+        {
+          "iteration": 175,
+          "loss": 0.03712756931781769,
+          "sdf_mse": 0.02423141337931156,
+          "dice_loss": 0.0256192684173584,
+          "smoothness": 0.004558285232633352,
+          "small_dice": 0.9742155949052501
+        },
+        {
+          "iteration": 200,
+          "loss": 0.03497675433754921,
+          "sdf_mse": 0.0229521282017231,
+          "dice_loss": 0.023591697216033936,
+          "smoothness": 0.00469454750418663,
+          "small_dice": 0.9764013518237967
+        },
+        {
+          "iteration": 225,
+          "loss": 0.03516850247979164,
+          "sdf_mse": 0.022570360451936722,
+          "dice_loss": 0.024913549423217773,
+          "smoothness": 0.004623483866453171,
+          "small_dice": 0.9750482452312377
+        },
+        {
+          "iteration": 250,
+          "loss": 0.03270965442061424,
+          "sdf_mse": 0.02062276192009449,
+          "dice_loss": 0.023831665515899658,
+          "smoothness": 0.004542147275060415,
+          "small_dice": 0.9762278711729006
+        }
+      ]
+    },
+    "reg_s030_d015::SB020": {
+      "subject": "SB020",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "affine",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.3,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.15,
+      "output_tag": "reg_s030_d015",
+      "initial_dice": 0.8899381721611817,
+      "final_dice": 0.9887293553807758,
+      "flow_mean_px": 17.850439071655273,
+      "flow_p50_px": 10.60669231414795,
+      "flow_p95_px": 54.33141670227051,
+      "flow_max_px": 55.30385208129883,
+      "flow_smoothness_px": 0.8815840482711792,
+      "jacobian_det_min": -8.070430755615234,
+      "jacobian_det_p01": -0.4487210786342621,
+      "jacobian_det_negative_fraction": 0.05146828164730978,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB020\\SB020_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB020\\SB020_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB020\\SB020_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB020\\SB020_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.28056833148002625,
+          "sdf_mse": 0.23106545209884644,
+          "dice_loss": 0.11000639200210571,
+          "smoothness": 0.0,
+          "small_dice": 0.8899935856318153
+        },
+        {
+          "iteration": 25,
+          "loss": 0.035689931362867355,
+          "sdf_mse": 0.02365100383758545,
+          "dice_loss": 0.024273693561553955,
+          "smoothness": 0.0037192185409367085,
+          "small_dice": 0.9757798354973877
+        },
+        {
+          "iteration": 50,
+          "loss": 0.02480190433561802,
+          "sdf_mse": 0.014525390230119228,
+          "dice_loss": 0.02024608850479126,
+          "smoothness": 0.0038859157357364893,
+          "small_dice": 0.9799025075391415
+        },
+        {
+          "iteration": 75,
+          "loss": 0.020008934661746025,
+          "sdf_mse": 0.011608974076807499,
+          "dice_loss": 0.01604670286178589,
+          "smoothness": 0.003929812461137772,
+          "small_dice": 0.9840861630885394
+        },
+        {
+          "iteration": 100,
+          "loss": 0.02198164165019989,
+          "sdf_mse": 0.012939142994582653,
+          "dice_loss": 0.017500758171081543,
+          "smoothness": 0.003890525782480836,
+          "small_dice": 0.9825595778015997
+        },
+        {
+          "iteration": 125,
+          "loss": 0.018423499539494514,
+          "sdf_mse": 0.010779013857245445,
+          "dice_loss": 0.014576733112335205,
+          "smoothness": 0.0036165164783596992,
+          "small_dice": 0.9855545966383101
+        },
+        {
+          "iteration": 150,
+          "loss": 0.019371049478650093,
+          "sdf_mse": 0.012317193672060966,
+          "dice_loss": 0.013300776481628418,
+          "smoothness": 0.0035616899840533733,
+          "small_dice": 0.9869999075092234
+        },
+        {
+          "iteration": 175,
+          "loss": 0.016617434099316597,
+          "sdf_mse": 0.010035507380962372,
+          "dice_loss": 0.01229405403137207,
+          "smoothness": 0.0034986729733645916,
+          "small_dice": 0.9880110730346907
+        },
+        {
+          "iteration": 200,
+          "loss": 0.016845572739839554,
+          "sdf_mse": 0.010191908106207848,
+          "dice_loss": 0.01246100664138794,
+          "smoothness": 0.0034873723052442074,
+          "small_dice": 0.9879570158102767
+        },
+        {
+          "iteration": 225,
+          "loss": 0.016020696610212326,
+          "sdf_mse": 0.009677719324827194,
+          "dice_loss": 0.01178288459777832,
+          "smoothness": 0.003468930721282959,
+          "small_dice": 0.9886909723294127
+        },
+        {
+          "iteration": 250,
+          "loss": 0.016330543905496597,
+          "sdf_mse": 0.009906189516186714,
+          "dice_loss": 0.011959671974182129,
+          "smoothness": 0.003475008299574256,
+          "small_dice": 0.9883681535855449
+        }
+      ]
+    },
+    "reg_s050_d012::SB012": {
+      "subject": "SB012",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.5,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.12,
+      "output_tag": "reg_s050_d012",
+      "initial_dice": 0.9260444903563353,
+      "final_dice": 0.9924883456908293,
+      "flow_mean_px": 15.213047981262207,
+      "flow_p50_px": 8.340910911560059,
+      "flow_p95_px": 48.71843338012695,
+      "flow_max_px": 50.132450103759766,
+      "flow_smoothness_px": 0.5457569360733032,
+      "jacobian_det_min": -31.973388671875,
+      "jacobian_det_p01": -0.224104081094265,
+      "jacobian_det_negative_fraction": 0.0261647975479454,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB012\\SB012_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB012\\SB012_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.17265528440475464,
+          "sdf_mse": 0.13952624797821045,
+          "dice_loss": 0.07362008094787598,
+          "smoothness": 0.0,
+          "small_dice": 0.9263799432093636
+        },
+        {
+          "iteration": 25,
+          "loss": 0.017970647662878036,
+          "sdf_mse": 0.010177155956625938,
+          "dice_loss": 0.014410555362701416,
+          "smoothness": 0.002617484889924526,
+          "small_dice": 0.9855858618772881
+        },
+        {
+          "iteration": 50,
+          "loss": 0.012230460532009602,
+          "sdf_mse": 0.006553499959409237,
+          "dice_loss": 0.009837925434112549,
+          "smoothness": 0.0024997873697429895,
+          "small_dice": 0.9901608561109035
+        },
+        {
+          "iteration": 75,
+          "loss": 0.011240744031965733,
+          "sdf_mse": 0.006165735889226198,
+          "dice_loss": 0.008736371994018555,
+          "smoothness": 0.0022872821427881718,
+          "small_dice": 0.991525261240533
+        },
+        {
+          "iteration": 100,
+          "loss": 0.011979607865214348,
+          "sdf_mse": 0.006536859553307295,
+          "dice_loss": 0.009535610675811768,
+          "smoothness": 0.0023034485056996346,
+          "small_dice": 0.9904146617334125
+        },
+        {
+          "iteration": 125,
+          "loss": 0.010949134826660156,
+          "sdf_mse": 0.006070214323699474,
+          "dice_loss": 0.008394598960876465,
+          "smoothness": 0.0022027036175131798,
+          "small_dice": 0.9916051846379675
+        },
+        {
+          "iteration": 150,
+          "loss": 0.009725826792418957,
+          "sdf_mse": 0.005346881691366434,
+          "dice_loss": 0.007246732711791992,
+          "smoothness": 0.002235831692814827,
+          "small_dice": 0.992802031916423
+        },
+        {
+          "iteration": 175,
+          "loss": 0.009776615537703037,
+          "sdf_mse": 0.005392697639763355,
+          "dice_loss": 0.007302284240722656,
+          "smoothness": 0.0021957806311547756,
+          "small_dice": 0.9929395986013316
+        },
+        {
+          "iteration": 200,
+          "loss": 0.009301587007939816,
+          "sdf_mse": 0.004991393536329269,
+          "dice_loss": 0.0071901679039001465,
+          "smoothness": 0.002149235224351287,
+          "small_dice": 0.9929173175897794
+        },
+        {
+          "iteration": 225,
+          "loss": 0.009183521382510662,
+          "sdf_mse": 0.004938781261444092,
+          "dice_loss": 0.00700831413269043,
+          "smoothness": 0.00218199728988111,
+          "small_dice": 0.9932056233289571
+        },
+        {
+          "iteration": 250,
+          "loss": 0.009160282090306282,
+          "sdf_mse": 0.0049940189346671104,
+          "dice_loss": 0.00688701868057251,
+          "smoothness": 0.0021342101972550154,
+          "small_dice": 0.9933116136450747
+        }
+      ]
+    },
+    "reg_s050_d012::SB013": {
+      "subject": "SB013",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "affine",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.5,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.12,
+      "output_tag": "reg_s050_d012",
+      "initial_dice": 0.9414837224937295,
+      "final_dice": 0.9963427933079767,
+      "flow_mean_px": 8.474615097045898,
+      "flow_p50_px": 6.111364126205444,
+      "flow_p95_px": 23.016953468322754,
+      "flow_max_px": 36.41943359375,
+      "flow_smoothness_px": 0.5700797438621521,
+      "jacobian_det_min": -18.317489624023438,
+      "jacobian_det_p01": -0.01828316487371922,
+      "jacobian_det_negative_fraction": 0.011199797644810433,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB013\\SB013_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB013\\SB013_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.08235929161310196,
+          "sdf_mse": 0.05602584779262543,
+          "dice_loss": 0.05851876735687256,
+          "smoothness": 0.0,
+          "small_dice": 0.9414812396668106
+        },
+        {
+          "iteration": 25,
+          "loss": 0.009365998208522797,
+          "sdf_mse": 0.0043977657333016396,
+          "dice_loss": 0.008519649505615234,
+          "smoothness": 0.0022687804885208607,
+          "small_dice": 0.9918498287597
+        },
+        {
+          "iteration": 50,
+          "loss": 0.006054702214896679,
+          "sdf_mse": 0.0025429679080843925,
+          "dice_loss": 0.005228102207183838,
+          "smoothness": 0.002318176906555891,
+          "small_dice": 0.9954727607494855
+        },
+        {
+          "iteration": 75,
+          "loss": 0.00512890238314867,
+          "sdf_mse": 0.0020910596940666437,
+          "dice_loss": 0.004115045070648193,
+          "smoothness": 0.002372145187109709,
+          "small_dice": 0.9966067885910042
+        },
+        {
+          "iteration": 100,
+          "loss": 0.004961336497217417,
+          "sdf_mse": 0.001968974247574806,
+          "dice_loss": 0.004006445407867432,
+          "smoothness": 0.0023789238184690475,
+          "small_dice": 0.9966384003123034
+        },
+        {
+          "iteration": 125,
+          "loss": 0.004526364617049694,
+          "sdf_mse": 0.0017586380708962679,
+          "dice_loss": 0.003522336483001709,
+          "smoothness": 0.002365349791944027,
+          "small_dice": 0.9972719005759321
+        },
+        {
+          "iteration": 150,
+          "loss": 0.0041175540536642075,
+          "sdf_mse": 0.001585327205248177,
+          "dice_loss": 0.0030411481857299805,
+          "smoothness": 0.002327420748770237,
+          "small_dice": 0.9976721272426077
+        },
+        {
+          "iteration": 175,
+          "loss": 0.004271866753697395,
+          "sdf_mse": 0.0016362420283257961,
+          "dice_loss": 0.003224968910217285,
+          "smoothness": 0.002368777059018612,
+          "small_dice": 0.9974635796045785
+        },
+        {
+          "iteration": 200,
+          "loss": 0.0037531598936766386,
+          "sdf_mse": 0.0013672566274181008,
+          "dice_loss": 0.0027151107788085938,
+          "smoothness": 0.0023282067850232124,
+          "small_dice": 0.998201477821838
+        },
+        {
+          "iteration": 225,
+          "loss": 0.00386158749461174,
+          "sdf_mse": 0.0014267039950937033,
+          "dice_loss": 0.0028180480003356934,
+          "smoothness": 0.002333523705601692,
+          "small_dice": 0.998041104340956
+        },
+        {
+          "iteration": 250,
+          "loss": 0.0036157460417598486,
+          "sdf_mse": 0.0012809777399525046,
+          "dice_loss": 0.0026034116744995117,
+          "smoothness": 0.002326466143131256,
+          "small_dice": 0.9981899962065789
+        }
+      ]
+    },
+    "reg_s050_d012::SB017": {
+      "subject": "SB017",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.5,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.12,
+      "output_tag": "reg_s050_d012",
+      "initial_dice": 0.608630797966172,
+      "final_dice": 0.8469864962817794,
+      "flow_mean_px": 28.591819763183594,
+      "flow_p50_px": 34.37295150756836,
+      "flow_p95_px": 45.98103332519531,
+      "flow_max_px": 45.99272918701172,
+      "flow_smoothness_px": 1.331470251083374,
+      "jacobian_det_min": -65.47434997558594,
+      "jacobian_det_p01": -1.7279302382469177,
+      "jacobian_det_negative_fraction": 0.15504096129723735,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB017\\SB017_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB017\\SB017_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB017\\SB017_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB017\\SB017_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 1.2151567935943604,
+          "sdf_mse": 1.03904128074646,
+          "dice_loss": 0.3913678526878357,
+          "smoothness": 0.0,
+          "small_dice": 0.6086320409656182
+        },
+        {
+          "iteration": 25,
+          "loss": 0.43879634141921997,
+          "sdf_mse": 0.36385172605514526,
+          "dice_loss": 0.1610732078552246,
+          "smoothness": 0.004923365078866482,
+          "small_dice": 0.8375152550646815
+        },
+        {
+          "iteration": 50,
+          "loss": 0.4221803545951843,
+          "sdf_mse": 0.3494534194469452,
+          "dice_loss": 0.15591156482696533,
+          "smoothness": 0.005133470520377159,
+          "small_dice": 0.842278083841074
+        },
+        {
+          "iteration": 75,
+          "loss": 0.42072394490242004,
+          "sdf_mse": 0.3481013774871826,
+          "dice_loss": 0.15570980310440063,
+          "smoothness": 0.00510632898658514,
+          "small_dice": 0.8423535706034703
+        },
+        {
+          "iteration": 100,
+          "loss": 0.4171915054321289,
+          "sdf_mse": 0.3451249897480011,
+          "dice_loss": 0.15454953908920288,
+          "smoothness": 0.005038411356508732,
+          "small_dice": 0.8435321268067533
+        },
+        {
+          "iteration": 125,
+          "loss": 0.4148070216178894,
+          "sdf_mse": 0.3429558277130127,
+          "dice_loss": 0.1539338231086731,
+          "smoothness": 0.005161914508789778,
+          "small_dice": 0.844217323752185
+        },
+        {
+          "iteration": 150,
+          "loss": 0.4124094247817993,
+          "sdf_mse": 0.34121835231781006,
+          "dice_loss": 0.15275418758392334,
+          "smoothness": 0.004903371445834637,
+          "small_dice": 0.8453730764100263
+        },
+        {
+          "iteration": 175,
+          "loss": 0.4113348722457886,
+          "sdf_mse": 0.33979058265686035,
+          "dice_loss": 0.15339326858520508,
+          "smoothness": 0.005034644156694412,
+          "small_dice": 0.844929259591817
+        },
+        {
+          "iteration": 200,
+          "loss": 0.4102376103401184,
+          "sdf_mse": 0.3391265869140625,
+          "dice_loss": 0.1525667905807495,
+          "smoothness": 0.004911959171295166,
+          "small_dice": 0.8458349495733126
+        },
+        {
+          "iteration": 225,
+          "loss": 0.41088059544563293,
+          "sdf_mse": 0.3393053412437439,
+          "dice_loss": 0.15337109565734863,
+          "smoothness": 0.005116510204970837,
+          "small_dice": 0.8452437292948415
+        },
+        {
+          "iteration": 250,
+          "loss": 0.4105333387851715,
+          "sdf_mse": 0.33933818340301514,
+          "dice_loss": 0.15233749151229858,
+          "smoothness": 0.005286579951643944,
+          "small_dice": 0.8459188127455259
+        }
+      ]
+    },
+    "reg_s050_d012::SB018": {
+      "subject": "SB018",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.5,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.12,
+      "output_tag": "reg_s050_d012",
+      "initial_dice": 0.8385216845033766,
+      "final_dice": 0.950115231935998,
+      "flow_mean_px": 17.95013427734375,
+      "flow_p50_px": 10.891227722167969,
+      "flow_p95_px": 45.139163970947266,
+      "flow_max_px": 45.13966369628906,
+      "flow_smoothness_px": 0.9691240787506104,
+      "jacobian_det_min": -265.63970947265625,
+      "jacobian_det_p01": -1.0795463502407074,
+      "jacobian_det_negative_fraction": 0.06293526557801861,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB018\\SB018_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB018\\SB018_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.47578853368759155,
+          "sdf_mse": 0.40306276082992554,
+          "dice_loss": 0.161612868309021,
+          "smoothness": 0.0,
+          "small_dice": 0.8383871556285349
+        },
+        {
+          "iteration": 25,
+          "loss": 0.12004412710666656,
+          "sdf_mse": 0.0922900140285492,
+          "dice_loss": 0.0566784143447876,
+          "smoothness": 0.004497651010751724,
+          "small_dice": 0.9433142100617828
+        },
+        {
+          "iteration": 50,
+          "loss": 0.11313279718160629,
+          "sdf_mse": 0.08763856440782547,
+          "dice_loss": 0.05196326971054077,
+          "smoothness": 0.004221532493829727,
+          "small_dice": 0.948070939296984
+        },
+        {
+          "iteration": 75,
+          "loss": 0.1104474663734436,
+          "sdf_mse": 0.08566853404045105,
+          "dice_loss": 0.05058002471923828,
+          "smoothness": 0.004035838879644871,
+          "small_dice": 0.9494309747649678
+        },
+        {
+          "iteration": 100,
+          "loss": 0.11109572649002075,
+          "sdf_mse": 0.08594787865877151,
+          "dice_loss": 0.05139440298080444,
+          "smoothness": 0.004040727857500315,
+          "small_dice": 0.9484299743196922
+        },
+        {
+          "iteration": 125,
+          "loss": 0.1147349551320076,
+          "sdf_mse": 0.0894654244184494,
+          "dice_loss": 0.05160093307495117,
+          "smoothness": 0.004098216071724892,
+          "small_dice": 0.9482023558368495
+        },
+        {
+          "iteration": 150,
+          "loss": 0.10769153386354446,
+          "sdf_mse": 0.08328224718570709,
+          "dice_loss": 0.049774885177612305,
+          "smoothness": 0.004021183121949434,
+          "small_dice": 0.9503868109585418
+        },
+        {
+          "iteration": 175,
+          "loss": 0.10959406197071075,
+          "sdf_mse": 0.08551783114671707,
+          "dice_loss": 0.049285054206848145,
+          "smoothness": 0.003795914351940155,
+          "small_dice": 0.9508398693169943
+        },
+        {
+          "iteration": 200,
+          "loss": 0.10666651278734207,
+          "sdf_mse": 0.08239008486270905,
+          "dice_loss": 0.04947417974472046,
+          "smoothness": 0.0040261028334498405,
+          "small_dice": 0.9507568668464799
+        },
+        {
+          "iteration": 225,
+          "loss": 0.10604950040578842,
+          "sdf_mse": 0.08195353299379349,
+          "dice_loss": 0.0491599440574646,
+          "smoothness": 0.003947984427213669,
+          "small_dice": 0.9509919476542449
+        },
+        {
+          "iteration": 250,
+          "loss": 0.10765023529529572,
+          "sdf_mse": 0.08336488157510757,
+          "dice_loss": 0.04969829320907593,
+          "smoothness": 0.0038422485813498497,
+          "small_dice": 0.9503753770282468
+        }
+      ]
+    },
+    "reg_s050_d012::SB019": {
+      "subject": "SB019",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.5,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.12,
+      "output_tag": "reg_s050_d012",
+      "initial_dice": 0.8520236687494607,
+      "final_dice": 0.9671500406605714,
+      "flow_mean_px": 20.05493927001953,
+      "flow_p50_px": 11.577303886413574,
+      "flow_p95_px": 46.78449325561523,
+      "flow_max_px": 46.83615493774414,
+      "flow_smoothness_px": 0.9658514261245728,
+      "jacobian_det_min": -36.65338134765625,
+      "jacobian_det_p01": -1.605810101032257,
+      "jacobian_det_negative_fraction": 0.09266178106392724,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB019\\SB019_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB019\\SB019_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.44797825813293457,
+          "sdf_mse": 0.3814312219619751,
+          "dice_loss": 0.14788228273391724,
+          "smoothness": 0.0,
+          "small_dice": 0.8521177315147165
+        },
+        {
+          "iteration": 25,
+          "loss": 0.07039892673492432,
+          "sdf_mse": 0.050297606736421585,
+          "dice_loss": 0.04002070426940918,
+          "smoothness": 0.004184012766927481,
+          "small_dice": 0.9594318092390022
+        },
+        {
+          "iteration": 50,
+          "loss": 0.06303784251213074,
+          "sdf_mse": 0.04472086578607559,
+          "dice_loss": 0.036071717739105225,
+          "smoothness": 0.004169408231973648,
+          "small_dice": 0.9636763464294831
+        },
+        {
+          "iteration": 75,
+          "loss": 0.06151990965008736,
+          "sdf_mse": 0.043456241488456726,
+          "dice_loss": 0.035646796226501465,
+          "smoothness": 0.004045228008180857,
+          "small_dice": 0.9639888109142661
+        },
+        {
+          "iteration": 100,
+          "loss": 0.062249600887298584,
+          "sdf_mse": 0.04398125410079956,
+          "dice_loss": 0.0362086296081543,
+          "smoothness": 0.003948928788304329,
+          "small_dice": 0.963433085100112
+        },
+        {
+          "iteration": 125,
+          "loss": 0.06409914046525955,
+          "sdf_mse": 0.046010859310626984,
+          "dice_loss": 0.03583729267120361,
+          "smoothness": 0.003923003561794758,
+          "small_dice": 0.9639061638982918
+        },
+        {
+          "iteration": 150,
+          "loss": 0.060552772134542465,
+          "sdf_mse": 0.04254543408751488,
+          "dice_loss": 0.03563779592514038,
+          "smoothness": 0.003940661437809467,
+          "small_dice": 0.9639834871201498
+        },
+        {
+          "iteration": 175,
+          "loss": 0.06460309028625488,
+          "sdf_mse": 0.04697953909635544,
+          "dice_loss": 0.03470909595489502,
+          "smoothness": 0.004008913412690163,
+          "small_dice": 0.9650854709241851
+        },
+        {
+          "iteration": 200,
+          "loss": 0.059514693915843964,
+          "sdf_mse": 0.041912276297807693,
+          "dice_loss": 0.03484058380126953,
+          "smoothness": 0.003848316613584757,
+          "small_dice": 0.9647876265996702
+        },
+        {
+          "iteration": 225,
+          "loss": 0.05888118967413902,
+          "sdf_mse": 0.04158080369234085,
+          "dice_loss": 0.034031569957733154,
+          "smoothness": 0.003972359001636505,
+          "small_dice": 0.9659722358577628
+        },
+        {
+          "iteration": 250,
+          "loss": 0.05757827311754227,
+          "sdf_mse": 0.04082682728767395,
+          "dice_loss": 0.032919228076934814,
+          "smoothness": 0.00387558713555336,
+          "small_dice": 0.9669114759249077
+        }
+      ]
+    },
+    "reg_s050_d012::SB020": {
+      "subject": "SB020",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "affine",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.5,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.12,
+      "output_tag": "reg_s050_d012",
+      "initial_dice": 0.8899381721611817,
+      "final_dice": 0.980598510345379,
+      "flow_mean_px": 15.839364051818848,
+      "flow_p50_px": 9.510966300964355,
+      "flow_p95_px": 44.035122299194335,
+      "flow_max_px": 44.24311447143555,
+      "flow_smoothness_px": 0.8428488373756409,
+      "jacobian_det_min": -13.376434326171875,
+      "jacobian_det_p01": -0.43679400980472566,
+      "jacobian_det_negative_fraction": 0.04783309898399413,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB020\\SB020_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB020\\SB020_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB020\\SB020_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB020\\SB020_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.28056833148002625,
+          "sdf_mse": 0.23106545209884644,
+          "dice_loss": 0.11000639200210571,
+          "smoothness": 0.0,
+          "small_dice": 0.8899935856318153
+        },
+        {
+          "iteration": 25,
+          "loss": 0.039832618087530136,
+          "sdf_mse": 0.025655008852481842,
+          "dice_loss": 0.02715742588043213,
+          "smoothness": 0.0039135366678237915,
+          "small_dice": 0.9727046632124352
+        },
+        {
+          "iteration": 50,
+          "loss": 0.03197154402732849,
+          "sdf_mse": 0.019629670307040215,
+          "dice_loss": 0.02300316095352173,
+          "smoothness": 0.003980905748903751,
+          "small_dice": 0.9770425318393908
+        },
+        {
+          "iteration": 75,
+          "loss": 0.031671248376369476,
+          "sdf_mse": 0.019506404176354408,
+          "dice_loss": 0.022826850414276123,
+          "smoothness": 0.003785523120313883,
+          "small_dice": 0.9773425300669073
+        },
+        {
+          "iteration": 100,
+          "loss": 0.029109058901667595,
+          "sdf_mse": 0.018226617947220802,
+          "dice_loss": 0.020153582096099854,
+          "smoothness": 0.0036266553215682507,
+          "small_dice": 0.9802204626610774
+        },
+        {
+          "iteration": 125,
+          "loss": 0.03236732631921768,
+          "sdf_mse": 0.019184332340955734,
+          "dice_loss": 0.025126934051513672,
+          "smoothness": 0.0037517487071454525,
+          "small_dice": 0.9750171471327915
+        },
+        {
+          "iteration": 150,
+          "loss": 0.031619079411029816,
+          "sdf_mse": 0.019846508279442787,
+          "dice_loss": 0.022226810455322266,
+          "smoothness": 0.003541012294590473,
+          "small_dice": 0.978073666690788
+        },
+        {
+          "iteration": 175,
+          "loss": 0.02832050248980522,
+          "sdf_mse": 0.017649110406637192,
+          "dice_loss": 0.019856572151184082,
+          "smoothness": 0.0034718685783445835,
+          "small_dice": 0.9803325788815511
+        },
+        {
+          "iteration": 200,
+          "loss": 0.031035637483000755,
+          "sdf_mse": 0.020611871033906937,
+          "dice_loss": 0.019451498985290527,
+          "smoothness": 0.003341186325997114,
+          "small_dice": 0.9807771892070849
+        },
+        {
+          "iteration": 225,
+          "loss": 0.027638813480734825,
+          "sdf_mse": 0.017028868198394775,
+          "dice_loss": 0.019808411598205566,
+          "smoothness": 0.0033923201262950897,
+          "small_dice": 0.980452185424984
+        },
+        {
+          "iteration": 250,
+          "loss": 0.02815284952521324,
+          "sdf_mse": 0.017316848039627075,
+          "dice_loss": 0.020393013954162598,
+          "smoothness": 0.003318289527669549,
+          "small_dice": 0.9798319153994852
+        }
+      ]
+    },
+    "reg_s080_d010::SB012": {
+      "subject": "SB012",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.8,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.1,
+      "output_tag": "reg_s080_d010",
+      "initial_dice": 0.9260444903563353,
+      "final_dice": 0.9886973501906656,
+      "flow_mean_px": 11.74760913848877,
+      "flow_p50_px": 4.245082855224609,
+      "flow_p95_px": 41.23868064880371,
+      "flow_max_px": 41.776737213134766,
+      "flow_smoothness_px": 0.5047802925109863,
+      "jacobian_det_min": -16.821792602539062,
+      "jacobian_det_p01": -0.2025885298848152,
+      "jacobian_det_negative_fraction": 0.03124364428021026,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB012\\SB012_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB012\\SB012_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB012\\SB012_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.17265528440475464,
+          "sdf_mse": 0.13952624797821045,
+          "dice_loss": 0.07362008094787598,
+          "smoothness": 0.0,
+          "small_dice": 0.9263799432093636
+        },
+        {
+          "iteration": 25,
+          "loss": 0.029812198132276535,
+          "sdf_mse": 0.01876126229763031,
+          "dice_loss": 0.020790278911590576,
+          "smoothness": 0.0021191390696913004,
+          "small_dice": 0.979806680065078
+        },
+        {
+          "iteration": 50,
+          "loss": 0.021844778209924698,
+          "sdf_mse": 0.012813585810363293,
+          "dice_loss": 0.016132831573486328,
+          "smoothness": 0.002214272739365697,
+          "small_dice": 0.984684857801691
+        },
+        {
+          "iteration": 75,
+          "loss": 0.019533678889274597,
+          "sdf_mse": 0.011494683101773262,
+          "dice_loss": 0.014122366905212402,
+          "smoothness": 0.0021049142815172672,
+          "small_dice": 0.9868606693476404
+        },
+        {
+          "iteration": 100,
+          "loss": 0.018480826169252396,
+          "sdf_mse": 0.010758835822343826,
+          "dice_loss": 0.013439178466796875,
+          "smoothness": 0.0020929486490786076,
+          "small_dice": 0.9876649951005821
+        },
+        {
+          "iteration": 125,
+          "loss": 0.01803131215274334,
+          "sdf_mse": 0.010431586764752865,
+          "dice_loss": 0.013250648975372314,
+          "smoothness": 0.0020461659878492355,
+          "small_dice": 0.9879418439170737
+        },
+        {
+          "iteration": 150,
+          "loss": 0.01635008491575718,
+          "sdf_mse": 0.009212568402290344,
+          "dice_loss": 0.012081682682037354,
+          "smoothness": 0.0021259489003568888,
+          "small_dice": 0.9891240588127819
+        },
+        {
+          "iteration": 175,
+          "loss": 0.01582559570670128,
+          "sdf_mse": 0.008899937383830547,
+          "dice_loss": 0.011677682399749756,
+          "smoothness": 0.0020883758552372456,
+          "small_dice": 0.9894421046558588
+        },
+        {
+          "iteration": 200,
+          "loss": 0.01562914438545704,
+          "sdf_mse": 0.00883165281265974,
+          "dice_loss": 0.01140064001083374,
+          "smoothness": 0.0020840042270720005,
+          "small_dice": 0.9897085697797442
+        },
+        {
+          "iteration": 225,
+          "loss": 0.015565275214612484,
+          "sdf_mse": 0.00885034166276455,
+          "dice_loss": 0.011285364627838135,
+          "smoothness": 0.002045649103820324,
+          "small_dice": 0.9898698652519078
+        },
+        {
+          "iteration": 250,
+          "loss": 0.015176450833678246,
+          "sdf_mse": 0.00860385037958622,
+          "dice_loss": 0.011072993278503418,
+          "smoothness": 0.0019871918484568596,
+          "small_dice": 0.9900716036330434
+        }
+      ]
+    },
+    "reg_s080_d010::SB013": {
+      "subject": "SB013",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "affine",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.8,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.1,
+      "output_tag": "reg_s080_d010",
+      "initial_dice": 0.9414837224937295,
+      "final_dice": 0.9967602879152752,
+      "flow_mean_px": 8.672486305236816,
+      "flow_p50_px": 6.531388759613037,
+      "flow_p95_px": 22.543811798095703,
+      "flow_max_px": 28.941650390625,
+      "flow_smoothness_px": 0.5354137420654297,
+      "jacobian_det_min": -8.59691333770752,
+      "jacobian_det_p01": -0.00034045289503410476,
+      "jacobian_det_negative_fraction": 0.010014708224426894,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB013\\SB013_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB013\\SB013_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB013\\SB013_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.08235929161310196,
+          "sdf_mse": 0.05602584779262543,
+          "dice_loss": 0.05851876735687256,
+          "smoothness": 0.0,
+          "small_dice": 0.9414812396668106
+        },
+        {
+          "iteration": 25,
+          "loss": 0.009916805662214756,
+          "sdf_mse": 0.004504242911934853,
+          "dice_loss": 0.00810706615447998,
+          "smoothness": 0.0022054784931242466,
+          "small_dice": 0.9925438739296063
+        },
+        {
+          "iteration": 50,
+          "loss": 0.006846061907708645,
+          "sdf_mse": 0.0026813088916242123,
+          "dice_loss": 0.005358219146728516,
+          "smoothness": 0.00219194358214736,
+          "small_dice": 0.9953127034416909
+        },
+        {
+          "iteration": 75,
+          "loss": 0.006017589941620827,
+          "sdf_mse": 0.002306204754859209,
+          "dice_loss": 0.0043465495109558105,
+          "smoothness": 0.002194297034293413,
+          "small_dice": 0.9963725352188931
+        },
+        {
+          "iteration": 100,
+          "loss": 0.005728092975914478,
+          "sdf_mse": 0.0021176463924348354,
+          "dice_loss": 0.004089236259460449,
+          "smoothness": 0.00221286341547966,
+          "small_dice": 0.9965993761913013
+        },
+        {
+          "iteration": 125,
+          "loss": 0.0052223349921405315,
+          "sdf_mse": 0.0018274972680956125,
+          "dice_loss": 0.0035907626152038574,
+          "smoothness": 0.002223743125796318,
+          "small_dice": 0.9970858746167762
+        },
+        {
+          "iteration": 150,
+          "loss": 0.004937747493386269,
+          "sdf_mse": 0.001677521038800478,
+          "dice_loss": 0.003372371196746826,
+          "smoothness": 0.0021783241536468267,
+          "small_dice": 0.9976686943604091
+        },
+        {
+          "iteration": 175,
+          "loss": 0.005133709870278835,
+          "sdf_mse": 0.0018084481125697494,
+          "dice_loss": 0.003552675247192383,
+          "smoothness": 0.0021581973414868116,
+          "small_dice": 0.9971408148677627
+        },
+        {
+          "iteration": 200,
+          "loss": 0.004723369609564543,
+          "sdf_mse": 0.0016358873108401895,
+          "dice_loss": 0.0029807686805725098,
+          "smoothness": 0.0021826704032719135,
+          "small_dice": 0.9979743709175991
+        },
+        {
+          "iteration": 225,
+          "loss": 0.004830263555049896,
+          "sdf_mse": 0.0016133531462401152,
+          "dice_loss": 0.0032962560653686523,
+          "smoothness": 0.002166994381695986,
+          "small_dice": 0.9974400694218462
+        },
+        {
+          "iteration": 250,
+          "loss": 0.004570335149765015,
+          "sdf_mse": 0.0015640363562852144,
+          "dice_loss": 0.0028789639472961426,
+          "smoothness": 0.0021384565625339746,
+          "small_dice": 0.9980509355509356
+        }
+      ]
+    },
+    "reg_s080_d010::SB017": {
+      "subject": "SB017",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.8,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.1,
+      "output_tag": "reg_s080_d010",
+      "initial_dice": 0.608630797966172,
+      "final_dice": 0.817096823962443,
+      "flow_mean_px": 24.097335815429688,
+      "flow_p50_px": 29.334810256958008,
+      "flow_p95_px": 38.321448135375974,
+      "flow_max_px": 38.32728576660156,
+      "flow_smoothness_px": 1.038006067276001,
+      "jacobian_det_min": -20.463245391845703,
+      "jacobian_det_p01": -1.0818437600135804,
+      "jacobian_det_negative_fraction": 0.12429716635053945,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB017\\SB017_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB017\\SB017_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB017\\SB017_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB017\\SB017_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 1.2151567935943604,
+          "sdf_mse": 1.03904128074646,
+          "dice_loss": 0.3913678526878357,
+          "smoothness": 0.0,
+          "small_dice": 0.6086320409656182
+        },
+        {
+          "iteration": 25,
+          "loss": 0.5418098568916321,
+          "sdf_mse": 0.4533371329307556,
+          "dice_loss": 0.1890605092048645,
+          "smoothness": 0.0042443471029400826,
+          "small_dice": 0.8125655496179394
+        },
+        {
+          "iteration": 50,
+          "loss": 0.5301505327224731,
+          "sdf_mse": 0.44248560070991516,
+          "dice_loss": 0.18723905086517334,
+          "smoothness": 0.004259181208908558,
+          "small_dice": 0.815434820516653
+        },
+        {
+          "iteration": 75,
+          "loss": 0.5226461887359619,
+          "sdf_mse": 0.4360904395580292,
+          "dice_loss": 0.18453222513198853,
+          "smoothness": 0.004395346622914076,
+          "small_dice": 0.8182473227818222
+        },
+        {
+          "iteration": 100,
+          "loss": 0.5200286507606506,
+          "sdf_mse": 0.4341265559196472,
+          "dice_loss": 0.18328237533569336,
+          "smoothness": 0.004281244240701199,
+          "small_dice": 0.8195695882046318
+        },
+        {
+          "iteration": 125,
+          "loss": 0.5193383693695068,
+          "sdf_mse": 0.43340879678726196,
+          "dice_loss": 0.18338793516159058,
+          "smoothness": 0.004256208427250385,
+          "small_dice": 0.8195016627785775
+        },
+        {
+          "iteration": 150,
+          "loss": 0.5182097554206848,
+          "sdf_mse": 0.43241575360298157,
+          "dice_loss": 0.18298423290252686,
+          "smoothness": 0.004313888028264046,
+          "small_dice": 0.8200528490081507
+        },
+        {
+          "iteration": 175,
+          "loss": 0.5183072686195374,
+          "sdf_mse": 0.4323316812515259,
+          "dice_loss": 0.18349140882492065,
+          "smoothness": 0.004255535081028938,
+          "small_dice": 0.8194409968723626
+        },
+        {
+          "iteration": 200,
+          "loss": 0.5180241465568542,
+          "sdf_mse": 0.43206560611724854,
+          "dice_loss": 0.1833134889602661,
+          "smoothness": 0.00433439202606678,
+          "small_dice": 0.8196371398078975
+        },
+        {
+          "iteration": 225,
+          "loss": 0.5166878700256348,
+          "sdf_mse": 0.4310997724533081,
+          "dice_loss": 0.18290042877197266,
+          "smoothness": 0.004103634040802717,
+          "small_dice": 0.8201515583722978
+        },
+        {
+          "iteration": 250,
+          "loss": 0.5158520340919495,
+          "sdf_mse": 0.43052083253860474,
+          "dice_loss": 0.18234211206436157,
+          "smoothness": 0.004096534103155136,
+          "small_dice": 0.8208083888000595
+        }
+      ]
+    },
+    "reg_s080_d010::SB018": {
+      "subject": "SB018",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.8,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.1,
+      "output_tag": "reg_s080_d010",
+      "initial_dice": 0.8385216845033766,
+      "final_dice": 0.9397235155589911,
+      "flow_mean_px": 17.03014373779297,
+      "flow_p50_px": 12.990180492401123,
+      "flow_p95_px": 37.61593246459961,
+      "flow_max_px": 37.616390228271484,
+      "flow_smoothness_px": 0.8472570180892944,
+      "jacobian_det_min": -216.01979064941406,
+      "jacobian_det_p01": -0.778692399263382,
+      "jacobian_det_negative_fraction": 0.0664772447204794,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB018\\SB018_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB018\\SB018_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB018\\SB018_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.47578853368759155,
+          "sdf_mse": 0.40306276082992554,
+          "dice_loss": 0.161612868309021,
+          "smoothness": 0.0,
+          "small_dice": 0.8383871556285349
+        },
+        {
+          "iteration": 25,
+          "loss": 0.15853434801101685,
+          "sdf_mse": 0.12518715858459473,
+          "dice_loss": 0.06780421733856201,
+          "smoothness": 0.0035441103391349316,
+          "small_dice": 0.9332517521415062
+        },
+        {
+          "iteration": 50,
+          "loss": 0.15196311473846436,
+          "sdf_mse": 0.12054941058158875,
+          "dice_loss": 0.06339001655578613,
+          "smoothness": 0.003610254731029272,
+          "small_dice": 0.9377332635167505
+        },
+        {
+          "iteration": 75,
+          "loss": 0.14919432997703552,
+          "sdf_mse": 0.11862032115459442,
+          "dice_loss": 0.06173861026763916,
+          "smoothness": 0.003489558817818761,
+          "small_dice": 0.9397649363369246
+        },
+        {
+          "iteration": 100,
+          "loss": 0.15123914182186127,
+          "sdf_mse": 0.12052503228187561,
+          "dice_loss": 0.06206613779067993,
+          "smoothness": 0.0034804479219019413,
+          "small_dice": 0.9392142245168181
+        },
+        {
+          "iteration": 125,
+          "loss": 0.14791254699230194,
+          "sdf_mse": 0.11757395416498184,
+          "dice_loss": 0.06123054027557373,
+          "smoothness": 0.00348105700686574,
+          "small_dice": 0.9402365612934095
+        },
+        {
+          "iteration": 150,
+          "loss": 0.14756719768047333,
+          "sdf_mse": 0.11722750961780548,
+          "dice_loss": 0.061371028423309326,
+          "smoothness": 0.003403405426070094,
+          "small_dice": 0.9402068735402068
+        },
+        {
+          "iteration": 175,
+          "loss": 0.14789755642414093,
+          "sdf_mse": 0.11770936846733093,
+          "dice_loss": 0.061166226863861084,
+          "smoothness": 0.003329227212816477,
+          "small_dice": 0.940349861369381
+        },
+        {
+          "iteration": 200,
+          "loss": 0.1481362134218216,
+          "sdf_mse": 0.1176985427737236,
+          "dice_loss": 0.0615578293800354,
+          "smoothness": 0.0034208083525300026,
+          "small_dice": 0.9397955319954563
+        },
+        {
+          "iteration": 225,
+          "loss": 0.1467907726764679,
+          "sdf_mse": 0.1168273538351059,
+          "dice_loss": 0.060817062854766846,
+          "smoothness": 0.003244676161557436,
+          "small_dice": 0.940754838781484
+        },
+        {
+          "iteration": 250,
+          "loss": 0.14564968645572662,
+          "sdf_mse": 0.11584120988845825,
+          "dice_loss": 0.06031745672225952,
+          "smoothness": 0.003332029562443495,
+          "small_dice": 0.9413688754394552
+        }
+      ]
+    },
+    "reg_s080_d010::SB019": {
+      "subject": "SB019",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "rigid",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.8,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.1,
+      "output_tag": "reg_s080_d010",
+      "initial_dice": 0.8520236687494607,
+      "final_dice": 0.9560768352355009,
+      "flow_mean_px": 16.3354549407959,
+      "flow_p50_px": 9.129324436187744,
+      "flow_p95_px": 39.022873115539554,
+      "flow_max_px": 39.03013229370117,
+      "flow_smoothness_px": 0.8532966375350952,
+      "jacobian_det_min": -29.329538345336914,
+      "jacobian_det_p01": -1.2436998879909515,
+      "jacobian_det_negative_fraction": 0.0831413989399987,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB019\\SB019_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB019\\SB019_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB019\\SB019_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.44797825813293457,
+          "sdf_mse": 0.3814312219619751,
+          "dice_loss": 0.14788228273391724,
+          "smoothness": 0.0,
+          "small_dice": 0.8521177315147165
+        },
+        {
+          "iteration": 25,
+          "loss": 0.10254925489425659,
+          "sdf_mse": 0.07684849202632904,
+          "dice_loss": 0.05032801628112793,
+          "smoothness": 0.0038164439611136913,
+          "small_dice": 0.9505543545092128
+        },
+        {
+          "iteration": 50,
+          "loss": 0.0955505445599556,
+          "sdf_mse": 0.07094196230173111,
+          "dice_loss": 0.04834526777267456,
+          "smoothness": 0.0035665216855704784,
+          "small_dice": 0.9528137153742361
+        },
+        {
+          "iteration": 75,
+          "loss": 0.0969371348619461,
+          "sdf_mse": 0.07307662069797516,
+          "dice_loss": 0.04636204242706299,
+          "smoothness": 0.003746993374079466,
+          "small_dice": 0.9547259887285441
+        },
+        {
+          "iteration": 100,
+          "loss": 0.09129966050386429,
+          "sdf_mse": 0.06805463135242462,
+          "dice_loss": 0.0450780987739563,
+          "smoothness": 0.003699855413287878,
+          "small_dice": 0.956034807429285
+        },
+        {
+          "iteration": 125,
+          "loss": 0.08912748843431473,
+          "sdf_mse": 0.06603148579597473,
+          "dice_loss": 0.04519367218017578,
+          "smoothness": 0.003448565024882555,
+          "small_dice": 0.9560569246789309
+        },
+        {
+          "iteration": 150,
+          "loss": 0.08855422586202621,
+          "sdf_mse": 0.0658947080373764,
+          "dice_loss": 0.04416579008102417,
+          "smoothness": 0.003481145016849041,
+          "small_dice": 0.9571965154653479
+        },
+        {
+          "iteration": 175,
+          "loss": 0.08563815802335739,
+          "sdf_mse": 0.06346552819013596,
+          "dice_loss": 0.043218791484832764,
+          "smoothness": 0.0034052231349051,
+          "small_dice": 0.9581349304558728
+        },
+        {
+          "iteration": 200,
+          "loss": 0.08675497025251389,
+          "sdf_mse": 0.06423141807317734,
+          "dice_loss": 0.043709754943847656,
+          "smoothness": 0.00356770190410316,
+          "small_dice": 0.9576446587904416
+        },
+        {
+          "iteration": 225,
+          "loss": 0.08511020988225937,
+          "sdf_mse": 0.06299696117639542,
+          "dice_loss": 0.04310476779937744,
+          "smoothness": 0.003395124338567257,
+          "small_dice": 0.9582232251551411
+        },
+        {
+          "iteration": 250,
+          "loss": 0.08771644532680511,
+          "sdf_mse": 0.065325066447258,
+          "dice_loss": 0.04375433921813965,
+          "smoothness": 0.0033774033654481173,
+          "small_dice": 0.9575723963078874
+        }
+      ]
+    },
+    "reg_s080_d010::SB020": {
+      "subject": "SB020",
+      "method": "VoxelMorph-style instance-specific 2D CNN",
+      "device": "cuda",
+      "init_stage": "affine",
+      "input_size": 256,
+      "iterations": 250,
+      "learning_rate": 0.002,
+      "smooth_weight": 0.8,
+      "dice_weight": 0.45,
+      "max_disp_norm": 0.1,
+      "output_tag": "reg_s080_d010",
+      "initial_dice": 0.8899381721611817,
+      "final_dice": 0.9753043408517283,
+      "flow_mean_px": 16.233972549438477,
+      "flow_p50_px": 10.12139892578125,
+      "flow_p95_px": 36.863002395629884,
+      "flow_max_px": 36.86924362182617,
+      "flow_smoothness_px": 0.6404117345809937,
+      "jacobian_det_min": -8.804262161254883,
+      "jacobian_det_p01": -0.2567662703990936,
+      "jacobian_det_negative_fraction": 0.03445488867483752,
+      "moving_image": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB020\\SB020_he_affine_to_hsi.png",
+      "moving_mask": "Registration\\DeepLearning\\Tecnicas_registration\\00_baseline_clasico\\outputs\\outputs_registro_afin_mascaras\\SB020\\SB020_he_mask_affine_to_hsi.png",
+      "fixed_image": "Registration\\DeepLearning\\Imagenes_a_escala\\SB020\\SB020_hsi.png",
+      "fixed_mask": "Registration\\DeepLearning\\Imagenes_a_escala\\SB020\\SB020_hsi_mask.png",
+      "history": [
+        {
+          "iteration": 0,
+          "loss": 0.28056833148002625,
+          "sdf_mse": 0.23106545209884644,
+          "dice_loss": 0.11000639200210571,
+          "smoothness": 0.0,
+          "small_dice": 0.8899935856318153
+        },
+        {
+          "iteration": 25,
+          "loss": 0.0579691119492054,
+          "sdf_mse": 0.04105338454246521,
+          "dice_loss": 0.03228682279586792,
+          "smoothness": 0.002983320504426956,
+          "small_dice": 0.9680935147052706
+        },
+        {
+          "iteration": 50,
+          "loss": 0.05011986568570137,
+          "sdf_mse": 0.03582561016082764,
+          "dice_loss": 0.026675760746002197,
+          "smoothness": 0.0028627030551433563,
+          "small_dice": 0.9741043512584268
+        },
+        {
+          "iteration": 75,
+          "loss": 0.0493507981300354,
+          "sdf_mse": 0.035526443272829056,
+          "dice_loss": 0.02593928575515747,
+          "smoothness": 0.0026895939372479916,
+          "small_dice": 0.9751087757920643
+        },
+        {
+          "iteration": 100,
+          "loss": 0.04845735803246498,
+          "sdf_mse": 0.034794025123119354,
+          "dice_loss": 0.02565711736679077,
+          "smoothness": 0.002647038782015443,
+          "small_dice": 0.9752927497716136
+        },
+        {
+          "iteration": 125,
+          "loss": 0.047747109085321426,
+          "sdf_mse": 0.034572847187519073,
+          "dice_loss": 0.0246506929397583,
+          "smoothness": 0.0026018116623163223,
+          "small_dice": 0.9763810591667446
+        },
+        {
+          "iteration": 150,
+          "loss": 0.04772128537297249,
+          "sdf_mse": 0.034500543028116226,
+          "dice_loss": 0.024778544902801514,
+          "smoothness": 0.0025879968889057636,
+          "small_dice": 0.9760803269506048
+        },
+        {
+          "iteration": 175,
+          "loss": 0.047170981764793396,
+          "sdf_mse": 0.034106794744729996,
+          "dice_loss": 0.024443626403808594,
+          "smoothness": 0.0025806964840739965,
+          "small_dice": 0.9766105527377581
+        },
+        {
+          "iteration": 200,
+          "loss": 0.04696716368198395,
+          "sdf_mse": 0.03406842425465584,
+          "dice_loss": 0.024091005325317383,
+          "smoothness": 0.002572235418483615,
+          "small_dice": 0.9770043376294544
+        },
+        {
+          "iteration": 225,
+          "loss": 0.047156188637018204,
+          "sdf_mse": 0.03405468538403511,
+          "dice_loss": 0.02461397647857666,
+          "smoothness": 0.002531514735892415,
+          "small_dice": 0.9763952728291433
+        },
+        {
+          "iteration": 250,
+          "loss": 0.04718773066997528,
+          "sdf_mse": 0.03426388278603554,
+          "dice_loss": 0.024228155612945557,
+          "smoothness": 0.0025264739524573088,
+          "small_dice": 0.9768456027411484
+        }
+      ]
+    }
+  }
+}
