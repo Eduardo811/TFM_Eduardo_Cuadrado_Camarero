@@ -79,4 +79,3 @@ Para reproducir o inspeccionar el pipeline, abrir los notebooks en orden aproxim
 ## Licencia y permisos
 
 La licencia debe confirmarse antes de publicar. Recomendacion: separar licencia de codigo y licencia de material grafico/datos derivados, ya que el repositorio contiene imagenes procedentes de un proyecto biomédico colaborativo.
-
