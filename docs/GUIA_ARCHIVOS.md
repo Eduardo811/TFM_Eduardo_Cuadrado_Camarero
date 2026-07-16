@@ -53,6 +53,7 @@
 | `Registration/DeepLearning/Tecnicas_registration/notebooks/22_comparacion_deep_learning.ipynb` | Comparacion global baseline, VoxelMorph, TransMorph y DeeperHistReg. |
 | `Registration/DeepLearning/Tecnicas_registration/05_feature_based_matching/notebooks/23_loftr_SB013_segmentado.ipynb` | LoFTR sobre SB013 segmentado. |
 | `Registration/DeepLearning/Tecnicas_registration/05_feature_based_matching/notebooks/24_comparacion_loftr_preprocesado_SB013.ipynb` | Comparacion controlada del efecto del preprocesado en LoFTR. |
+| `Registration/DeepLearning/Tecnicas_registration/05_feature_based_matching/notebooks/24_2_comparacion_visual_loftr_preprocesado_SB013.ipynb` | Comparacion visual adicional del efecto del preprocesado en LoFTR y generacion de figuras para memoria/presentacion. |
 
 ## Resultados clave
 
@@ -61,9 +62,9 @@
 - `02_transmorph/outputs/outputs_transmorph_final_block/`: bloque final de TransMorph-style.
 - `04_deeperhistreg/outputs/outputs_deeperhistreg_all/`: resultados exploratorios con DeeperHistReg.
 - `05_feature_based_matching/outputs/`: resultados LoFTR y comparacion de preprocesado.
+- `05_feature_based_matching/outputs/outputs_loftr_SB013_preprocesado_controlado_v2/`: figuras y metricas adicionales asociadas al notebook 24.2.
 - `outputs/outputs_comparacion_deep_learning/`: tablas y figuras de comparacion global.
 
 ## Archivos excluidos de forma deliberada
 
 Los datos brutos, papers, instaladores, notas privadas, temporales de Word y versiones antiguas de entregables no forman parte del repositorio publico. La razon es una combinacion de peso, copyright, privacidad y claridad.
-

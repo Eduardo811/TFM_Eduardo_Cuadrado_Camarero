@@ -11,9 +11,13 @@ La primera prueba se realizo sobre SB013 para comprobar si LoFTR mejora al elimi
 ## Estructura
 
 - `notebooks/23_loftr_SB013_segmentado.ipynb`: explicacion interactiva y resultados ejecutados.
+- `notebooks/24_comparacion_loftr_preprocesado_SB013.ipynb`: comparacion controlada del efecto del preprocesado en LoFTR.
+- `notebooks/24_2_comparacion_visual_loftr_preprocesado_SB013.ipynb`: version visual complementaria para generar figuras mas claras de memoria y presentacion.
 - `scripts/run_loftr_sb013_segmented.py`: reproduce LoFTR, affine, homografia y metricas.
 - `scripts/create_loftr_segmented_notebook.py`: genera el notebook a partir de los resultados.
 - `outputs/outputs_loftr_SB013_segmented/`: imagenes, matches, overlays y resumen CSV/JSON.
+- `outputs/outputs_loftr_SB013_preprocesado_controlado/`: salidas de la comparacion controlada del notebook 24.
+- `outputs/outputs_loftr_SB013_preprocesado_controlado_v2/`: figuras, metricas y visualizaciones adicionales del notebook 24.2.
 
 ## Casos comparados
 
